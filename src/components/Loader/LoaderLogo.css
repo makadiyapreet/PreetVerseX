@@ -1,0 +1,67 @@
+/* --- NEW: Import creative font from Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.raw_logo {
+  height: 305;
+  width: 440;
+}
+
+.myHexagon {
+  /* Using the 850 dasharray for the larger hexagons */
+  stroke-dasharray: 850;
+  stroke-dashoffset: 850;
+  -webkit-animation: dash 2.5s linear forwards;
+  -o-animation: dash 2.5s linear forwards;
+  -moz-animation: dash 2.5s linear forwards;
+  animation: dash 2.5s linear forwards;
+}
+
+.letter {
+  /* --- NEW: Apply the imported font --- */
+  font-family: 'Lobster', cursive;
+  
+  /* This animation fades in the "PM" text */
+  opacity: 0;
+  -webkit-animation: fadein 2s linear forwards 2.5s;
+  -o-animation: fadein 2s linear forwards 2.5s;
+  -moz-animation: fadein 2s linear forwards 2.5s;
+  animation: fadein 2s linear forwards 2.5s;
+}
+
+/* Keyframe for the hexagon line-drawing animation */
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 850;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 850;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Keyframe for the letter fade-in animation */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
