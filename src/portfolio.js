@@ -95,25 +95,29 @@ const skills = {
       ],
     },
     {
-      title: "Programming Languages",
-      fileName: "",
-      imagePath: "ProgrammingImg.png",
-      skills: [
-        "⚡ Proficient in Python, C, C++ for diverse software development",
-        "⚡ Experience with MySQL for database management",
-        "⚡ Skilled in frontend technologies HTML and CSS",
-        "⚡ Backend development using Django framework",
-      ],
-      softwareSkills: [
-        { skillName: "Python", fontAwesomeClassname: "ion-logo-python", style: { backgroundColor: "transparent", color: "#3776AB" } },
-        { skillName: "C", fontAwesomeClassname: "simple-icons:c", style: { backgroundColor: "transparent" } },
-        { skillName: "C++", fontAwesomeClassname: "simple-icons:cplusplus", style: { backgroundColor: "transparent" } },
-        { skillName: "MySQL", fontAwesomeClassname: "simple-icons:mysql", style: { color: "#4479A1" } },
-        { skillName: "HTML5", fontAwesomeClassname: "simple-icons:html5", style: { color: "#E34F26" } },
-        { skillName: "CSS3", fontAwesomeClassname: "fa-css3", style: { color: "#1572B6" } },
-        { skillName: "Django", fontAwesomeClassname: "simple-icons:django", style: { color: "#092E20" } },
-      ],
-    },
+  title: "Programming Languages",
+  fileName: "",
+  imagePath: "ProgrammingImg.png",
+  skills: [
+    "⚡ Proficient in Python, C, C++ for diverse software development",
+    "⚡ Strong knowledge of JavaScript for dynamic web applications",
+    "⚡ Experience with React.js for building scalable UI components",
+    "⚡ Experience with MySQL for database management",
+    "⚡ Skilled in frontend technologies HTML and CSS",
+    "⚡ Backend development using Django framework",
+  ],
+  softwareSkills: [
+    { skillName: "Python", fontAwesomeClassname: "ion-logo-python", style: { backgroundColor: "transparent", color: "#3776AB" } },
+    { skillName: "C", fontAwesomeClassname: "simple-icons:c", style: { backgroundColor: "transparent" } },
+    { skillName: "C++", fontAwesomeClassname: "simple-icons:cplusplus", style: { backgroundColor: "transparent" } },
+    { skillName: "JavaScript", fontAwesomeClassname: "simple-icons:javascript", style: { color: "#F7DF1E" } },
+    { skillName: "React", fontAwesomeClassname: "simple-icons:react", style: { color: "#61DAFB" } },
+    { skillName: "MySQL", fontAwesomeClassname: "simple-icons:mysql", style: { color: "#4479A1" } },
+    { skillName: "HTML5", fontAwesomeClassname: "simple-icons:html5", style: { color: "#E34F26" } },
+    { skillName: "CSS3", fontAwesomeClassname: "fa-css3", style: { color: "#1572B6" } },
+    { skillName: "Django", fontAwesomeClassname: "simple-icons:django", style: { color: "#092E20" } },
+  ],
+  },
     {
       title: "Cybersecurity & Ethical Hacking",
       fileName: "",
@@ -521,7 +525,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I love documenting my tech journey — from AI and machine learning experiments to cybersecurity insights and development tips.",
-    link: "https://www.blogger.com/u/1/blog/posts/5482732094575770988",
+    link: "https://successstreamers.blogspot.com/2025/11/zero-trust-transforms-security.html",
     avatar_image_path: "blogs_image.svg",
   },  
   
@@ -534,7 +538,7 @@ const contactPageData = {
     postalCode: "360004",
     streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/KQ9AmxQMMDUWDWsq6",
+    location_map_link: "https://maps.app.goo.gl/2GwaEdKAWdDmzuQk8",
   },
   
   phoneSection: {
