@@ -42,7 +42,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](https://makadiyapreet.github.io/)**
+To view a live example, **[click here](https://makadiyapreet.github.io/PreetVerseX/)**
 
 # Table of Contents
  - [Clone and Use](#clone-and-use)
@@ -246,9 +246,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
   </tbody>
 </table>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-# PreetVerseX
