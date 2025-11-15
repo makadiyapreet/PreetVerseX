@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "id": "R_kgDO_PREET01",
+      "name": "🎓 GATE MASTER - Comprehensive Web-Based GATE Preparation Platform",
+      "createdAt": "2025-08-28T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/Gate-Masters",
+      "description": "A full-stack educational platform for GATE Computer Science aspirants featuring practice zones, realistic mock tests, daily challenges, performance analytics, study materials, and leaderboards — built to democratize quality education for all students.",
+      "isFork": false,
+      "languages": [
+        { "name": "React.js", "iconifyClass": "logos-react" },
+        { "name": "Django", "iconifyClass": "logos-django-icon" },
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "PHP", "iconifyClass": "logos-php" },
+        { "name": "SQLite", "iconifyClass": "simple-icons:sqlite" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+        { "name": "Chart.js", "iconifyClass": "simple-icons:chartdotjs" },
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET02",
+      "name": "🌊 Coastal Threat Alert System",
+      "createdAt": "2025-05-10T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/AI_Powered_Coastal_Threat_Alert_System",
+      "description": "AI-powered real-time early warning platform for India's coastal regions. Integrates live sensor data, satellite intelligence, and machine learning to detect and predict coastal threats like storms, erosion, pollution, and algal blooms.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "FastAPI", "iconifyClass": "simple-icons:fastapi" },
+        { "name": "TensorFlow", "iconifyClass": "logos-tensorflow" },
+        { "name": "PostgreSQL", "iconifyClass": "logos-postgresql" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET03",
+      "name": "🌐 PreetVerseX - Personal Portfolio Website",
+      "createdAt": "2025-11-05T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/PreetVerseX",
+      "description": "A fully responsive and animated personal portfolio built using React.js, showcasing projects, experiences, education, and open-source contributions. Deployed on GitHub Pages with smooth transitions, modern UI, and modular components.",
+      "isFork": false,
+      "languages": [
+        { "name": "React.js", "iconifyClass": "logos-react" },
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" }
+      ]
+    },
+    
+    {
+      "id": "R_kgDO_PREET04",
+      "name": "💰 Expense Management System with Smart Approvals",
+      "createdAt": "2025-04-02T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/Expense_Management_System_with_Smart_Approvals",
+      "description": "A full-stack MERN application automating expense reimbursements through multi-level approval workflows, real-time currency conversion, smart OCR-based receipt scanning, and live dashboards for employees, managers, and admins.",
+      "isFork": false,
+      "languages": [
+        { "name": "React", "iconifyClass": "logos-react" },
+        { "name": "Node.js", "iconifyClass": "logos-nodejs" },
+        { "name": "Express.js", "iconifyClass": "simple-icons:express" },
+        { "name": "MongoDB", "iconifyClass": "logos-mongodb" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" }
+      ]
+    },
+    
+    {
+      "id": "R_kgDO_PREET05",
+      "name": "🖼️ Image Captioning and Segmentation",
+      "createdAt": "2025-02-20T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/Image-Captioning-Segmentation",
+      "description": "A deep learning pipeline for natural language image captioning and object-level image segmentation built entirely from scratch using the MS COCO 2017 dataset — without any pre-trained models.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "PyTorch", "iconifyClass": "simple-icons:pytorch" },
+        { "name": "Jupyter Notebook", "iconifyClass": "logos-jupyter" }
+      ]
+    },
+    
+    {
+      "id": "R_kgDO_PREET06",
+      "name": "🌱 AgroSphere - SQL-Based Smart Agriculture System",
+      "createdAt": "2024-06-15T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/AgroSphere_SQL_project",
+      "description": "Seeds of Change: Transforming Global Food Systems from Farm to Fork. A structured SQL-based DBMS for smart agriculture enabling traceability, sustainability tracking, and farm analytics from soil to shelf.",
+      "isFork": false,
+      "languages": [
+        { "name": "SQL", "iconifyClass": "logos-mysql" },
+        { "name": "Workbench", "iconifyClass": "simple-icons:mysql" },
+        { "name": "Draw.io", "iconifyClass": "simple-icons:diagramsdotnet" }
+      ]
+    }
+    
+  ]
+}
