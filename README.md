@@ -211,8 +211,8 @@ Now, your website is successfully deployed and you can visit it at `<your-github
 If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
 
 <p align="center"> 
-    <a href="" target="_blank">
-    <img src=""></img>
+    <a href="https://makadiyapreet.github.io/PreetVerseX/" target="_blank">
+    <img src="src/assets/images/masterportfolio-banner-light.png"></img>
   </a>
 </p>
 
@@ -245,4 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
     </tr>
   </tbody>
 </table>
+
+# Reference ※
+
 
