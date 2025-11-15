@@ -13,7 +13,8 @@ import Error404 from "../pages/errors/error404/Error";
 export default class Main extends Component {
   render() {
     return (
-      <BrowserRouter basename="/">
+      // IMPORTANT FIX FOR GITHUB PAGES
+      <BrowserRouter basename="/PreetVerseX">
         <Switch>
           <Route
             path="/"
@@ -71,6 +72,7 @@ export default class Main extends Component {
             render={(props) => <Projects {...props} theme={this.props.theme} />}
           />
 
+          {/* Catch-all route */}
           <Route
             path="*"
             render={(props) => <Error404 {...props} theme={this.props.theme} />}
