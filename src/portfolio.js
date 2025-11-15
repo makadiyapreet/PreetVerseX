@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Preet Makadiya Portfolio",
     type: "website",
-    url: "", //github pages
+    url: "https://makadiyapreet.github.io/PreetVerseX/", //github pages
   },
 };
 
