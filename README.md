@@ -23,11 +23,9 @@
   <a href="https://ashutoshhathidara.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
 </p>
-<p align="center">If you want to discuss about something, you can ask on my <a href="https://discord.com/invite/GkcbM5bwZr">Discord Server</a>.</p>
 
 <p align="center"> 
-    <a href="https://makadiyapreet.github.io" target="_blank">
-    <img src="images/masterPortfolioThemes.png"></img>
+    <a href="[https://makadiyapreet.github.io](https://makadiyapreet.github.io/PreetVerseX/)" target="_blank">
   </a>
 </p>
 
@@ -44,7 +42,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](https://makadiyapreet.github.io/)**
+To view a live example, **[click here](https://makadiyapreet.github.io/PreetVerseX/)**
 
 # Table of Contents
  - [Clone and Use](#clone-and-use)
@@ -213,8 +211,8 @@ Now, your website is successfully deployed and you can visit it at `<your-github
 If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
 
 <p align="center"> 
-    <a href="" target="_blank">
-    <img src=""></img>
+    <a href="https://makadiyapreet.github.io/PreetVerseX/" target="_blank">
+    <img src="src/assets/images/masterportfolio-banner-light.png"></img>
   </a>
 </p>
 
@@ -248,9 +246,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
   </tbody>
 </table>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+# Reference ※
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-# PreetVerseX
