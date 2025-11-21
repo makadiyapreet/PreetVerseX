@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PreetVerseX/static/css/main.de05a725.chunk.css",
+    "main.css": "/PreetVerseX/static/css/main.19d98318.chunk.css",
     "main.js": "/PreetVerseX/static/js/main.e5c2e9e2.chunk.js",
     "main.js.map": "/PreetVerseX/static/js/main.e5c2e9e2.chunk.js.map",
     "runtime-main.js": "/PreetVerseX/static/js/runtime-main.c199df45.js",
@@ -8,9 +8,9 @@
     "static/js/2.c9d7d047.chunk.js": "/PreetVerseX/static/js/2.c9d7d047.chunk.js",
     "static/js/2.c9d7d047.chunk.js.map": "/PreetVerseX/static/js/2.c9d7d047.chunk.js.map",
     "index.html": "/PreetVerseX/index.html",
-    "precache-manifest.84df2203c715a2572a74aeb7d4a20c84.js": "/PreetVerseX/precache-manifest.84df2203c715a2572a74aeb7d4a20c84.js",
+    "precache-manifest.0079b235f785a89f1cad5547e70c815f.js": "/PreetVerseX/precache-manifest.0079b235f785a89f1cad5547e70c815f.js",
     "service-worker.js": "/PreetVerseX/service-worker.js",
-    "static/css/main.de05a725.chunk.css.map": "/PreetVerseX/static/css/main.de05a725.chunk.css.map",
+    "static/css/main.19d98318.chunk.css.map": "/PreetVerseX/static/css/main.19d98318.chunk.css.map",
     "static/media/index.css": "/PreetVerseX/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/CyberSecurityImg.png": "/PreetVerseX/static/media/CyberSecurityImg.0fc61264.png",
     "static/media/ProgrammingImg.png": "/PreetVerseX/static/media/ProgrammingImg.071a37cf.png",
@@ -73,7 +73,7 @@
   "entrypoints": [
     "static/js/runtime-main.c199df45.js",
     "static/js/2.c9d7d047.chunk.js",
-    "static/css/main.de05a725.chunk.css",
+    "static/css/main.19d98318.chunk.css",
     "static/js/main.e5c2e9e2.chunk.js"
   ]
 }
