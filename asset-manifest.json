@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PreetVerseX/static/css/main.da829e8c.chunk.css",
-    "main.js": "/PreetVerseX/static/js/main.7571c3e5.chunk.js",
-    "main.js.map": "/PreetVerseX/static/js/main.7571c3e5.chunk.js.map",
+    "main.css": "/PreetVerseX/static/css/main.de05a725.chunk.css",
+    "main.js": "/PreetVerseX/static/js/main.e5c2e9e2.chunk.js",
+    "main.js.map": "/PreetVerseX/static/js/main.e5c2e9e2.chunk.js.map",
     "runtime-main.js": "/PreetVerseX/static/js/runtime-main.c199df45.js",
     "runtime-main.js.map": "/PreetVerseX/static/js/runtime-main.c199df45.js.map",
     "static/js/2.c9d7d047.chunk.js": "/PreetVerseX/static/js/2.c9d7d047.chunk.js",
     "static/js/2.c9d7d047.chunk.js.map": "/PreetVerseX/static/js/2.c9d7d047.chunk.js.map",
     "index.html": "/PreetVerseX/index.html",
-    "precache-manifest.d208d2094fbf052e807a27b71fa9d836.js": "/PreetVerseX/precache-manifest.d208d2094fbf052e807a27b71fa9d836.js",
+    "precache-manifest.84df2203c715a2572a74aeb7d4a20c84.js": "/PreetVerseX/precache-manifest.84df2203c715a2572a74aeb7d4a20c84.js",
     "service-worker.js": "/PreetVerseX/service-worker.js",
-    "static/css/main.da829e8c.chunk.css.map": "/PreetVerseX/static/css/main.da829e8c.chunk.css.map",
+    "static/css/main.de05a725.chunk.css.map": "/PreetVerseX/static/css/main.de05a725.chunk.css.map",
     "static/media/index.css": "/PreetVerseX/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/CyberSecurityImg.png": "/PreetVerseX/static/media/CyberSecurityImg.0fc61264.png",
     "static/media/ProgrammingImg.png": "/PreetVerseX/static/media/ProgrammingImg.071a37cf.png",
@@ -73,7 +73,7 @@
   "entrypoints": [
     "static/js/runtime-main.c199df45.js",
     "static/js/2.c9d7d047.chunk.js",
-    "static/css/main.da829e8c.chunk.css",
-    "static/js/main.7571c3e5.chunk.js"
+    "static/css/main.de05a725.chunk.css",
+    "static/js/main.e5c2e9e2.chunk.js"
   ]
 }
