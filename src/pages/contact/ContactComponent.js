@@ -106,7 +106,7 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
 
-              <div className="contact-heading-img-div">
+              <div className="address-heading-img-div">
                 <AddressImg theme={theme} />
               </div>
 

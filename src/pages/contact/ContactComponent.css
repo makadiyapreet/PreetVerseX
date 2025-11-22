@@ -1,68 +1,49 @@
-/* ================== CONTACT PAGE BASE ================== */
-
 .contact-main {
   width: 100%;
-  background: var(--themeBackground);
 }
 
 .basic-contact {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px 20px 80px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-/* ========== MAIN SECTIONS (DESKTOP) ========== */
-
-.contact-heading-div,
-.blog-heading-div,
-.address-heading-div {
+/* Contact section */
+.contact-heading-div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  margin-bottom: 80px;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
-.contact-heading-div > *,
+.blog-heading-div {
+  display: flex;
+  margin-top: 80px;
+}
+
+.address-heading-div {
+  display: flex;
+  margin-top: 80px;
+  vertical-align: middle;
+}
+
 .blog-heading-div > *,
+.contact-heading-div > *,
 .address-heading-div > * {
   flex: 1;
 }
 
-/* ========= LEFT IMAGE BLOCKS ========= */
-
+/* Center image */
 .contact-heading-img-div,
-.blog-heading-img-div,
-.address-heading-img-div {
+.blog-heading-img-div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Top circular profile image */
+/* Image size */
 .contact-heading-img-div > img {
-  width: 320px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-/* SVG / image in blog & address sections */
-.blog-heading-img-div svg,
-.blog-heading-img-div img,
-.address-heading-img-div svg,
-.address-heading-img-div img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ========= TEXT BLOCKS ========= */
-
-.contact-heading-text-div,
-.blog-heading-text-div,
-.address-heading-text-div {
-  text-align: left;
+  width: 500px;
+  height: 500px;
 }
 
 /* Headings */
@@ -71,8 +52,8 @@
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .blog-heading-text {
@@ -80,28 +61,28 @@
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .address-heading-text {
   font-size: 30px;
   font-family: "Google Sans Regular";
-  margin-bottom: 10px;
-  margin-top: 0;
   text-align: center;
+  margin-bottom: 10px;
+  margin-top: 60px;
 }
 
 /* Detail text */
 .contact-header-detail-text,
 .blog-header-detail-text {
-  font-size: 18px;
-  line-height: 1.6;
-  margin: 0 0 24px 0;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 20px;
   font-family: "Google Sans Medium";
 }
 
-/* Buttons centered horizontally */
+/* Buttons centered */
 .resume-btn-div,
 .blogsite-btn-div,
 .address-btn-div {
@@ -114,102 +95,161 @@
   margin-top: 10px;
 }
 
-/* ========= CONTACT CARD (RIGHT SIDE) ========= */
+/* ---------- RESPONSIVE FIXES ---------- */
 
-.contact-card {
-  flex: 1;
-  padding: 32px 28px;
-  border-radius: 25px;
-  box-shadow: 0 6px 30px rgba(0,0,0,0.08);
-  backdrop-filter: blur(8px);
+/* 1380px */
+@media (max-width: 1380px) {
+  .contact-heading-text {
+    font-size: 50px;
+  }
+
+  .blog-heading-text {
+    font-size: 50px;
+  }
+
+  .contact-heading-img-div > img {
+    width: 220px;
+    height: 220px;
+  }
 }
 
-/* TITLE */
-.contact-title {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 10px;
+/* 768px – MAIN FIX */
+@media (max-width: 768px) {
+
+  /* Stack sections just like Experience page */
+  .contact-heading-div,
+  .blog-heading-div,
+  .address-heading-div {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 20px !important;
+    margin-bottom: 40px !important;
+  }
+
+  /* Fix header spacing - same as Experience page */
+  .contact-heading-text {
+    font-size: 26px !important;
+    margin-top: 20px !important;
+  }
+
+  .blog-heading-text,
+  .address-heading-text {
+    font-size: 26px !important;
+    margin-top: 10px !important;
+  }
+
+  /* Fix description text */
+  .contact-header-detail-text{
+    font-size: 15px !important;
+    margin:20px auto !important;   
+    line-height: 1.5 !important;
+  }
+
+.blog-header-detail-text {
+    font-size: 15px !important;
+    margin: 20px auto !important;   
+    line-height: 1.5 !important;
 }
 
-/* SUBTITLE / DESCRIPTION */
-.contact-subtitle {
-  font-size: 16px;
-  margin-bottom: 26px;
-  line-height: 1.6;
+  /* Fix circular profile image */
+  .contact-heading-img-div > img {
+    width: 150px !important;
+    height: 150px !important;
+    margin-bottom: 10px;
+  }
+
+  /* Fix huge illustrations (BIG issue) */
+  .blog-heading-img-div img,
+  .blog-heading-img-div svg{
+    width: 220px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+
+  .address-heading-img-div img,
+  .address-heading-img-div svg {
+    width: 2200px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+
+  /* Testimonial card fix */
+ .testimonial-end-card {
+    width: 90% !important;
+    max-width: 350px !important;
+    margin: 0 auto !important;
+  }
+
+
+  .testimonial-quote {
+  width: 90%;
+  max-width: 320px;
+  margin: 0 auto;
+  }
+
+
+  .testimonial-author {
+    font-size: 0.85rem !important;
+    margin-top: 10px !important;
+  }
+
+  /* Contact card fix */
+  .contact-card {
+    width: 100% !important;
+    margin: 0 auto !important;
+    border-radius: 16px !important;
+  }
+
+  /* Center contact rows */
+  .connect-item {
+    justify-content:left !important;
+    text-align: left !important;
+  }
+
+  .icon-circle {
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 18px !important;
+  }
+
+  /* Contact label/value */
+  .connect-label {
+    font-size: 0.95rem !important;
+  }
+
+  .connect-value {
+    font-size: 0.9rem !important;
+  }
+
+  /* Map button */
+  .map-btn {
+    width: 90% !important;
+    margin: 20px auto 0 auto !important;
+    padding: 10px 16px !important;
+    font-size: 15px !important;
+  }
+
+  /* Adjust bottom two-card layout */
+  .connect-testimonial-grid {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 22px !important;
+    padding: 30px 16px !important;
+  }
+
+  .reach-out-section,
+  .testimonial-end-card {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin-bottom: 12px !important;
+  }
 }
 
-/* CONTACT ROW ITEMS */
-.connect-item {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 20px;
-}
 
-/* Round icon background */
-.icon-circle {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  flex-shrink: 0;
-}
-
-/* Brand Colors */
-.email-icon {
-  background: #D44638;
-}
-
-.phone-icon {
-  background: #34A853;
-}
-
-.address-icon {
-  background: #EA4335;
-}
-
-.linkedin-bg {
-  background-color: #0077b5;
-}
-
-.github-bg {
-  background-color: #24292e;
-}
-
-/* LABEL + VALUE */
-.connect-label {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.connect-value {
-  font-size: 0.95rem;
-  text-decoration: none;
-}
-
-/* MAP BUTTON */
-.map-btn {
-  display: block;
-  text-align: center;
-  padding: 12px 20px;
-  margin-top: 25px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-  transition: 0.3s ease;
-}
-
-.map-btn:hover {
-  opacity: 0.85;
-  transform: translateY(-2px);
-}
-
-/* ================== TESTIMONIAL / REACH OUT (BOTTOM) ================== */
+/* ================= END CONTACT WRAPPER ================= */
 
 .end-contact-wrapper {
   width: 100%;
@@ -264,7 +304,7 @@
 .reach-out-card {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(44,48,67,.07);
+  box-shadow: 0 2px 12px rgba(44,48,67, .07);
   padding: 18px 24px;
   display: flex;
   align-items: center;
@@ -300,7 +340,7 @@
 .testimonial-end-card {
   background: #fff;
   border-radius: 18px;
-  box-shadow: 0 4px 14px rgba(44,48,67,.08);
+  box-shadow: 0 4px 14px rgba(44,48,67, .08);
   padding: 30px 28px 22px 28px;
   min-width: 290px;
   margin: 0 7px 15px 0;
@@ -311,10 +351,10 @@
 }
 
 .testimonial-quote {
-  font-size: 1.05rem;
+  font-size: 1.18rem;
   color: #35405b;
   line-height: 1.7;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   font-style: italic;
 }
 
@@ -332,168 +372,141 @@
   font-size: 0.95rem;
   font-weight: 600;
   color: #6c63ff;
-  margin-top: 14px;
+  margin-top: 20px;
   text-align: right;
   width: 100%;
   padding-left: 10px;
 }
 
-/* ============ RESPONSIVE FOR TABLETS ============ */
-
-@media (max-width: 1024px) {
-  .contact-heading-text,
-  .blog-heading-text {
-    font-size: 42px;
-  }
-
-  .contact-heading-img-div > img {
-    width: 260px;
-  }
-}
-
-/* ============ RESPONSIVE FOR MOBILE ============ */
-
-@media (max-width: 768px) {
-  .basic-contact {
-    padding: 40px 16px 60px;
-  }
-
-  /* Stack sections vertically */
-  .contact-heading-div,
-  .blog-heading-div,
-  .address-heading-div {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 24px;
-    margin-bottom: 50px;
-  }
-
-  /* Top sections order: for blog -> text first, image after */
-  .blog-heading-div {
-    flex-direction: column-reverse;
-  }
-
-  /* Circular profile image smaller */
-  .contact-heading-img-div > img {
-    width: 150px;
-    height: 150px;
-  }
-
-  /* Blog & address SVGs smaller */
-  .blog-heading-img-div svg,
-  .blog-heading-img-div img,
-  .address-heading-img-div svg,
-  .address-heading-img-div img {
-    width: 75%;
-    max-width: 260px;
-    height: auto;
-    margin: 0 auto;
-  }
-
-  .contact-heading-text,
-  .blog-heading-text {
-    font-size: 30px;
-    margin-bottom: 12px;
-  }
-
-  .address-heading-text {
-    font-size: 22px;
-  }
-
-  .contact-header-detail-text,
-  .blog-header-detail-text {
-    font-size: 15px;
-    margin: 0 4px 18px 4px;
-    line-height: 1.5;
-    text-align: center;
-  }
-
-  .contact-heading-text-div,
-  .blog-heading-text-div,
-  .address-heading-text-div {
-    text-align: center;
-  }
-
-  /* Contact card full width and tighter padding */
-  .contact-card {
-    width: 100%;
-    padding: 22px 18px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  }
-
-  .contact-title {
-    font-size: 26px;
-    margin-bottom: 8px;
-  }
-
-  .contact-subtitle {
-    font-size: 15px;
-    margin-bottom: 20px;
-  }
-
-  /* Contact rows: more compact */
-  .connect-item {
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 14px;
-  }
-
-  .icon-circle {
-    width: 42px;
-    height: 42px;
-    font-size: 18px;
-  }
-
-  .connect-label {
-    font-size: 0.95rem;
-  }
-
-  .connect-value {
-    font-size: 0.9rem;
-  }
-
-  .map-btn {
-    font-size: 15px;
-    padding: 10px 16px;
-    margin-top: 18px;
-  }
-
-  /* Testimonial & reach-out stack */
+@media (max-width: 960px) {
   .connect-testimonial-grid {
     flex-direction: column;
     align-items: center;
-    gap: 22px;
-    padding: 30px 16px 18px 16px;
+    gap: 28px;
   }
-
   .reach-out-section,
   .testimonial-end-card {
-    width: 100%;
-    min-width: 0;
-    margin-bottom: 10px;
-  }
-
-  .testimonial-end-card {
-    margin: 0;
+    min-width: 230px;
+    width: 96vw;
+    margin-bottom: 16px;
   }
 }
 
-/* EXTRA SMALL PHONES */
-@media (max-width: 480px) {
-  .contact-heading-text,
-  .blog-heading-text {
-    font-size: 26px;
+/* MAIN WRAPPER */
+.contact-main {
+  width: 100%;
+  background: var(--themeBackground);
+}
+
+/* MAIN CONTAINER */
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5% 7%;
+  gap: 40px;
+}
+
+/* LEFT SIDE IMAGE */
+.contact-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-illustration {
+  width: 480px;
+  height: auto;
+}
+
+/* RIGHT SIDE CARD */
+.contact-card {
+  flex: 1;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(8px);
+}
+
+/* TITLE */
+.contact-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+.contact-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* CONTACT ROW ITEMS */
+.connect-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+/* ICON CIRCLE */
+.icon-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Brand Colors */
+.email-icon { background: #D44638; }
+.phone-icon { background: #34A853; }
+.address-icon { background: #EA4335; }
+.linkedin-bg { background-color: #0077b5; }
+.github-bg { background-color: #24292e; }
+
+/* VALUE */
+.connect-label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.connect-value {
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+/* MAP BUTTON */
+.map-btn {
+  display: block;
+  text-align: center;
+  padding: 12px 20px;
+  margin-top: 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.map-btn:hover {
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
   }
 
-  .contact-subtitle,
-  .contact-header-detail-text,
-  .blog-header-detail-text {
-    font-size: 14px;
+  .contact-illustration {
+    width: 320px;
   }
 
-  .contact-card {
-    padding: 18px 14px;
+  .connect-item {
+    justify-content: center;
   }
 }
