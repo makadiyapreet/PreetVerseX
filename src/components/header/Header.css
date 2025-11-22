@@ -1,148 +1,161 @@
-/* header */
+/* ===================== HEADER BASE ===================== */
 
 .header {
-  display: block;
-  max-width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 16px 20px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
 }
 
+/* LOGO */
+.header .logo {
+  display: flex;
+  font-size: 1.6em;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* MENU UL */
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
-  /* background-color: #fff; */
-}
-.grey-color {
-  color: #868e96;
 }
 
+/* MENU ITEMS */
 .header li a {
   display: block;
-  padding: 20px 20px;
-  /* color: black; */
+  padding: 14px 20px;
+  font-size: 1rem;
   text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
-}
-
-.header .logo {
-  display: block;
-  float: left;
-  font-size: 1.5em;
-  text-decoration: none;
-  margin-top: 10px;
-  line-height: normal;
-}
-.header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  padding: 0 10px;
-  /* color: #55198b; */
-}
-
-/* menu */
-
-.menu {
-  font-family: "Google Sans Regular";
-}
-
+/* MENU TOGGLE (default hidden menu) */
 .header .menu {
-  clear: both;
+  overflow: hidden;
   max-height: 0;
-  transition: max-height 0.2s ease-out;
+  width: 100%;
+  transition: max-height 0.3s ease;
 }
 
-/* menu icon */
-
+/* HAMBURGER ICON */
 .header .menu-icon {
-  cursor: pointer;
   display: inline-block;
-  float: right;
-  padding: 28px 20px;
-  position: relative;
-  user-select: none;
+  cursor: pointer;
+  padding: 16px;
 }
 
 .header .menu-icon .navicon {
   background: #333;
-  display: block;
-  height: 2px;
+  width: 24px;
+  height: 3px;
   position: relative;
-  transition: background 0.2s ease-out;
-  width: 18px;
+  transition: all 0.3s ease;
 }
 
-.header .menu-icon .navicon:before,
-.header .menu-icon .navicon:after {
-  background: #333;
+.header .menu-icon .navicon::before,
+.header .menu-icon .navicon::after {
   content: "";
-  display: block;
-  height: 100%;
+  background: #333;
+  width: 24px;
+  height: 3px;
   position: absolute;
-  transition: all 0.2s ease-out;
-  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
 }
 
-.header .menu-icon .navicon:before {
-  top: 5px;
+.header .menu-icon .navicon::before {
+  top: -7px;
 }
 
-.header .menu-icon .navicon:after {
-  top: -5px;
+.header .menu-icon .navicon::after {
+  top: 7px;
 }
 
-/* menu btn */
-
+/* HIDDEN CHECKBOX */
 .header .menu-btn {
   display: none;
 }
 
+/* WHEN MOBILE MENU OPENS */
 .header .menu-btn:checked ~ .menu {
-  max-height: 370px;
+  max-height: 400px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.header .menu-btn:checked ~ .menu-icon .navicon::before {
   transform: rotate(-45deg);
-}
-
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
-  transform: rotate(45deg);
-}
-
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
-/* 48em = 768px */
+.header .menu-btn:checked ~ .menu-icon .navicon::after {
+  transform: rotate(45deg);
+  top: 0;
+}
 
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header {
+/* ===================== DESKTOP VIEW (min-width: 768px) ===================== */
+
+@media (min-width: 768px) {
+  .menu {
+    max-height: none !important;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 10px;
   }
-  .header .menu {
-    max-height: none;
-  }
+
   .header .menu-icon {
     display: none;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
+
+  .header li {
+    float: left;
+  }
+
   .header {
-    font-size: 12px;
+    padding: 18px 40px;
+  }
+}
+
+/* ===================== MOBILE VIEW ===================== */
+
+@media (max-width: 768px) {
+  .header {
+    position: fixed;
+    padding: 12px 20px;
+  }
+
+  .menu {
+    width: 100%;
+    background: var(--themeBackground);
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .header li a {
+    padding: 16px 20px;
+    font-size: 1.05rem;
+  }
+}
+
+/* SMALL PHONES */
+@media (max-width: 480px) {
+  .header li a {
+    font-size: 0.95rem;
+    padding: 14px 16px;
+  }
+
+  .logo-name {
+    font-size: 1.2rem;
   }
 }
