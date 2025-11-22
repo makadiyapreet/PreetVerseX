@@ -1,161 +1,158 @@
-/* ===================== HEADER BASE ===================== */
-
+/* -------------------------
+   Header Wrapper
+-------------------------- */
 .header {
-  width: 100%;
-  max-width: 100%;
-  padding: 16px 20px;
+  display: block;
+  max-width: 90%;
+  padding: 20px 10px;
   margin: 0 auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  backdrop-filter: blur(10px);
 }
 
-/* LOGO */
-.header .logo {
-  display: flex;
-  font-size: 1.6em;
-  text-decoration: none;
-  align-items: center;
-}
-
-/* MENU UL */
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  overflow: hidden;
 }
 
-/* MENU ITEMS */
+.grey-color {
+  color: #868e96;
+}
+
 .header li a {
   display: block;
-  padding: 14px 20px;
-  font-size: 1rem;
+  padding: 20px 20px;
   text-decoration: none;
 }
 
-/* MENU TOGGLE (default hidden menu) */
-.header .menu {
-  overflow: hidden;
-  max-height: 0;
-  width: 100%;
-  transition: max-height 0.3s ease;
+.header li a:hover,
+.header .menu-btn:hover {
+  /* background-color: #a6e1fa; */
 }
 
-/* HAMBURGER ICON */
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
+}
+
+.header .logo-name {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+/* -------------------------
+   Menu
+-------------------------- */
+.menu {
+  font-family: "Google Sans Regular";
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* -------------------------
+   Menu Icon (Mobile)
+-------------------------- */
 .header .menu-icon {
-  display: inline-block;
   cursor: pointer;
-  padding: 16px;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
 }
 
 .header .menu-icon .navicon {
   background: #333;
-  width: 24px;
-  height: 3px;
+  display: block;
+  height: 2px;
+  width: 18px;
   position: relative;
-  transition: all 0.3s ease;
+  transition: background 0.2s ease-out;
 }
 
-.header .menu-icon .navicon::before,
-.header .menu-icon .navicon::after {
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
   content: "";
   background: #333;
-  width: 24px;
-  height: 3px;
+  display: block;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  left: 0;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease-out;
 }
 
-.header .menu-icon .navicon::before {
-  top: -7px;
+.header .menu-icon .navicon:before {
+  top: 5px;
 }
 
-.header .menu-icon .navicon::after {
-  top: 7px;
+.header .menu-icon .navicon:after {
+  top: -5px;
 }
 
-/* HIDDEN CHECKBOX */
+/* -------------------------
+   Menu Button (Hamburger)
+-------------------------- */
 .header .menu-btn {
   display: none;
 }
 
-/* WHEN MOBILE MENU OPENS */
 .header .menu-btn:checked ~ .menu {
-  max-height: 400px;
+  max-height: 370px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon::before {
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
-  top: 0;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon::after {
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
-/* ===================== DESKTOP VIEW (min-width: 768px) ===================== */
-
-@media (min-width: 768px) {
-  .menu {
-    max-height: none !important;
+/* -------------------------
+   Responsive
+   48em = 768px
+-------------------------- */
+@media (min-width: 48em) {
+  .header {
     display: flex;
     align-items: center;
-    gap: 10px;
-  }
-
-  .header .menu-icon {
-    display: none;
+    justify-content: space-between;
   }
 
   .header li {
     float: left;
   }
 
-  .header {
-    padding: 18px 40px;
+  .header .menu {
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
   }
 }
 
-/* ===================== MOBILE VIEW ===================== */
-
-@media (max-width: 768px) {
+/* Tablet (768px - 960px) */
+@media (max-width: 960px) and (min-width: 768px) {
   .header {
-    position: fixed;
-    padding: 12px 20px;
-  }
-
-  .menu {
-    width: 100%;
-    background: var(--themeBackground);
-    text-align: left;
-    padding-bottom: 10px;
-  }
-
-  .header li a {
-    padding: 16px 20px;
-    font-size: 1.05rem;
-  }
-}
-
-/* SMALL PHONES */
-@media (max-width: 480px) {
-  .header li a {
-    font-size: 0.95rem;
-    padding: 14px 16px;
-  }
-
-  .logo-name {
-    font-size: 1.2rem;
+    font-size: 12px;
   }
 }
