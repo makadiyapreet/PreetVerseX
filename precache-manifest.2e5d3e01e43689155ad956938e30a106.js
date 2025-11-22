@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f3cf169552d38d2b78d4c33bbd0b5c8",
+    "revision": "51d8cce898dd1134f3cedc1104df246f",
     "url": "/PreetVerseX/index.html"
   },
   {
-    "revision": "0f65eefa60f249c40d2f",
-    "url": "/PreetVerseX/static/css/main.d5a13dc5.chunk.css"
+    "revision": "a16d5eb5b32f9536d325",
+    "url": "/PreetVerseX/static/css/main.31ead655.chunk.css"
   },
   {
-    "revision": "0cb1827a1463791042c0",
-    "url": "/PreetVerseX/static/js/2.c9d7d047.chunk.js"
+    "revision": "dabcb3ddf778f9fdfc51",
+    "url": "/PreetVerseX/static/js/2.fadeee47.chunk.js"
   },
   {
-    "revision": "0f65eefa60f249c40d2f",
-    "url": "/PreetVerseX/static/js/main.dd2af061.chunk.js"
+    "revision": "a16d5eb5b32f9536d325",
+    "url": "/PreetVerseX/static/js/main.d117b0d7.chunk.js"
   },
   {
     "revision": "d216b845e4747e8bef23",
