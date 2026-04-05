@@ -1,0 +1,181 @@
+{
+  "data": [
+    {
+      "id": "R_kgDO_PREET01",
+      "name": "GATE MASTER - Comprehensive Web-Based GATE Preparation Platform",
+      "createdAt": "2025-08-28T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/Gate-Masters",
+      "description": "A full-stack educational platform for GATE Computer Science aspirants featuring practice zones, realistic mock tests, daily challenges, performance analytics, study materials, and leaderboards — built to democratize quality education for all students.",
+      "isFork": false,
+      "languages": [
+        { "name": "React.js", "iconifyClass": "logos-react" },
+        { "name": "Django", "iconifyClass": "logos-django-icon" },
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "PHP", "iconifyClass": "logos-php" },
+        { "name": "SQLite", "iconifyClass": "simple-icons:sqlite" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+        { "name": "Chart.js", "iconifyClass": "simple-icons:chartdotjs" },
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET02",
+      "name": "Coastal Threat Alert System",
+      "createdAt": "2025-05-10T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/AI_Powered_Coastal_Threat_Alert_System",
+      "description": "AI-powered real-time early warning platform for India's coastal regions. Integrates live sensor data, satellite intelligence, and machine learning to detect and predict coastal threats like storms, erosion, pollution, and algal blooms.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "FastAPI", "iconifyClass": "simple-icons:fastapi" },
+        { "name": "TensorFlow", "iconifyClass": "logos-tensorflow" },
+        { "name": "PostgreSQL", "iconifyClass": "logos-postgresql" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET03",
+      "name": "PreetVerseX - Personal Portfolio Website",
+      "createdAt": "2025-11-05T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/PreetVerseX",
+      "description": "A fully responsive and animated personal portfolio built using React.js, showcasing projects, experiences, education, and open-source contributions. Deployed on GitHub Pages with smooth transitions, modern UI, and modular components.",
+      "isFork": false,
+      "languages": [
+        { "name": "React.js", "iconifyClass": "logos-react" },
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET04",
+      "name": "Expense Management System with Smart Approvals",
+      "createdAt": "2025-04-02T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/Expense_Management_System_with_Smart_Approvals",
+      "description": "A full-stack MERN application automating expense reimbursements through multi-level approval workflows, real-time currency conversion, smart OCR-based receipt scanning, and live dashboards for employees, managers, and admins.",
+      "isFork": false,
+      "languages": [
+        { "name": "React", "iconifyClass": "logos-react" },
+        { "name": "Node.js", "iconifyClass": "logos-nodejs" },
+        { "name": "Express.js", "iconifyClass": "simple-icons:express" },
+        { "name": "MongoDB", "iconifyClass": "logos-mongodb" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET05",
+      "name": "Image Captioning and Segmentation",
+      "createdAt": "2025-02-20T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/Image-Captioning-Segmentation",
+      "description": "A deep learning pipeline for natural language image captioning and object-level image segmentation built entirely from scratch using the MS COCO 2017 dataset — without any pre-trained models.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "PyTorch", "iconifyClass": "simple-icons:pytorch" },
+        { "name": "Jupyter Notebook", "iconifyClass": "logos-jupyter" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET06",
+      "name": "AgroSphere - SQL-Based Smart Agriculture System",
+      "createdAt": "2024-06-15T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/AgroSphere_SQL_project",
+      "description": "Seeds of Change: Transforming Global Food Systems from Farm to Fork. A structured SQL-based DBMS for smart agriculture enabling traceability, sustainability tracking, and farm analytics from soil to shelf.",
+      "isFork": false,
+      "languages": [
+        { "name": "SQL", "iconifyClass": "logos-mysql" },
+        { "name": "Workbench", "iconifyClass": "simple-icons:mysql" },
+        { "name": "Draw.io", "iconifyClass": "simple-icons:diagramsdotnet" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET07",
+      "name": "CyberShield - Network Vulnerability Scanner",
+      "createdAt": "2025-01-15T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "An automated network vulnerability assessment tool that performs comprehensive port scanning, service enumeration, and security auditing. Features real-time threat detection, CVE mapping, and detailed PDF report generation.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "Nmap", "iconifyClass": "file-icons:nmap" },
+        { "name": "Bash", "iconifyClass": "logos-bash-icon" },
+        { "name": "Linux", "iconifyClass": "logos-linux-tux" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET08",
+      "name": "Stock Market Prediction using LSTM",
+      "createdAt": "2024-11-20T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "Time-series stock price prediction system using Long Short-Term Memory (LSTM) neural networks. Implements technical indicators, sentiment analysis from news data, and provides interactive visualization dashboards for market insights.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "TensorFlow", "iconifyClass": "logos-tensorflow" },
+        { "name": "Pandas", "iconifyClass": "simple-icons:pandas" },
+        { "name": "Plotly", "iconifyClass": "simple-icons:plotly" },
+        { "name": "Streamlit", "iconifyClass": "simple-icons:streamlit" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET09",
+      "name": "SecureAuth - Multi-Factor Authentication System",
+      "createdAt": "2024-09-10T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "A robust authentication system implementing OAuth 2.0, JWT tokens, TOTP-based 2FA, and biometric verification. Features password strength analysis, brute-force protection, and comprehensive audit logging.",
+      "isFork": false,
+      "languages": [
+        { "name": "Node.js", "iconifyClass": "logos-nodejs" },
+        { "name": "Express.js", "iconifyClass": "simple-icons:express" },
+        { "name": "MongoDB", "iconifyClass": "logos-mongodb" },
+        { "name": "React", "iconifyClass": "logos-react" },
+        { "name": "JWT", "iconifyClass": "simple-icons:jsonwebtokens" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET10",
+      "name": "Digital Forensics Toolkit",
+      "createdAt": "2024-08-05T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "A comprehensive digital forensics suite for incident response and evidence collection. Includes memory analysis, disk imaging, file recovery, metadata extraction, and chain of custody documentation features.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "C++", "iconifyClass": "logos-c-plusplus" },
+        { "name": "Bash", "iconifyClass": "logos-bash-icon" },
+        { "name": "SQLite", "iconifyClass": "simple-icons:sqlite" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET11",
+      "name": "AI Chatbot with NLP",
+      "createdAt": "2024-07-12T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "An intelligent conversational AI chatbot powered by natural language processing. Features intent classification, entity recognition, context-aware responses, and integration with multiple messaging platforms.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "TensorFlow", "iconifyClass": "logos-tensorflow" },
+        { "name": "Flask", "iconifyClass": "simple-icons:flask" },
+        { "name": "NLTK", "iconifyClass": "simple-icons:python" },
+        { "name": "Docker", "iconifyClass": "logos-docker-icon" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET12",
+      "name": "Password Cracker & Analyzer",
+      "createdAt": "2024-05-18T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "Educational tool demonstrating password security vulnerabilities. Implements dictionary attacks, brute-force methods, rainbow table lookups, and password strength meters to promote better security practices.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "C", "iconifyClass": "logos-c" },
+        { "name": "Hashcat", "iconifyClass": "simple-icons:kalilinux" }
+      ]
+    }
+  ]
+}
