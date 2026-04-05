@@ -37,7 +37,6 @@ import dau_logo from "./images/dau_logo.png";
 import walmart_logo from "./images/walmart_logo.png";
 
 // Other logos
-import coursera_logo from "./images/coursera_logo.png";
 import deeplearning_ai_logo from "./images/deeplearning_ai_logo.png";
 import google_logo from "./images/google_logo.png";
 import ibm_logo from "./images/ibm_logo.png";
@@ -100,7 +99,6 @@ const imageMap = {
   "walmart_logo.png": walmart_logo,
 
   // Other logos
-  "coursera_logo.png": coursera_logo,
   "deeplearning_ai_logo.png": deeplearning_ai_logo,
   "google_logo.png": google_logo,
   "ibm_logo.png": ibm_logo,
