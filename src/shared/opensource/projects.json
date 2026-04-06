@@ -2,6 +2,54 @@
   "data": [
     {
       "id": "R_kgDO_PREET01",
+      "name": "Swagat Caterers - Enterprise Catering Management System",
+      "createdAt": "2024-12-04T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/swagat-caterers-platform",
+      "description": "A complete digital transformation of a traditional catering business — built over 46 days into a production-ready full-stack platform with 1,343 API endpoints. Features bilingual (English & Gujarati) interactive menus, real-time booking calendar, multi-role access (Admin/Manager/Customer), staff financial tracking with visual analytics, automated bill generation with GST, and comprehensive reporting dashboards. Currently powering live catering operations.",
+      "isFork": false,
+      "languages": [
+        { "name": "Django", "iconifyClass": "logos-django-icon" },
+        { "name": "Express.js", "iconifyClass": "simple-icons:express" },
+        { "name": "PostgreSQL", "iconifyClass": "logos-postgresql" },
+        { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+        { "name": "HTML", "iconifyClass": "logos-html-5" },
+        { "name": "CSS", "iconifyClass": "logos-css-3" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET02",
+      "name": "SentinelAI - Intelligent Web Application Firewall",
+      "createdAt": "2025-07-05T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "A production-grade AI-powered Web Application Firewall with full OWASP Top 10 (2021) coverage. Features 17 integrated security modules including ML-based anomaly detection (Isolation Forest + Logistic Regression), real-time SIEM dashboard, AI-powered attack explanations via Groq/Claude API, threat intelligence integration (AbuseIPDB, VirusTotal), honeypot traps, tamper-evident forensic logging, and automated multi-channel alerts. Comparable to junior versions of Cloudflare WAF and Imperva.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "FastAPI", "iconifyClass": "simple-icons:fastapi" },
+        { "name": "React", "iconifyClass": "logos-react" },
+        { "name": "PostgreSQL", "iconifyClass": "logos-postgresql" },
+        { "name": "Redis", "iconifyClass": "logos-redis" },
+        { "name": "Docker", "iconifyClass": "logos-docker-icon" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET03",
+      "name": "CareerBoost AI - Advanced AI-Powered Career Assistant",
+      "createdAt": "2025-06-15T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "A comprehensive, production-ready career development platform leveraging AI to help job seekers succeed. Features ATS resume analysis with keyword optimization, job description parsing with match scoring, skill gap identification with personalized learning paths, 20+ career roadmaps with curated resources, AI-powered interview prep with real-time feedback, and a job application tracker. Built with React, FastAPI, spaCy NLP, and MongoDB.",
+      "isFork": false,
+      "languages": [
+        { "name": "React.js", "iconifyClass": "logos-react" },
+        { "name": "FastAPI", "iconifyClass": "simple-icons:fastapi" },
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "MongoDB", "iconifyClass": "logos-mongodb" },
+        { "name": "spaCy", "iconifyClass": "simple-icons:spacy" },
+        { "name": "Tailwind CSS", "iconifyClass": "logos-tailwindcss-icon" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET04",
       "name": "GATE MASTER - Comprehensive Web-Based GATE Preparation Platform",
       "createdAt": "2025-08-28T00:00:00Z",
       "url": "https://github.com/makadiyapreet/Gate-Masters",
@@ -20,7 +68,52 @@
       ]
     },
     {
-      "id": "R_kgDO_PREET02",
+      "id": "R_kgDO_PREET05",
+      "name": "GeoWar-Fitness - Location-Based Territory Capture Game",
+      "createdAt": "2025-03-15T00:00:00Z",
+      "url": "https://github.com/makadiyapreet/GeoWar-Fitness",
+      "description": "A location-based fitness game built with Flutter where players compete to capture real-world territory by walking, running, or cycling. Features GPS boundary drawing, anti-cheat speed detection, global leaderboards, and a real-time interactive map with multiple styles powered by MapLibre GL and MapTiler. Backend powered by Supabase.",
+      "isFork": false,
+      "languages": [
+        { "name": "Flutter", "iconifyClass": "logos-flutter" },
+        { "name": "Dart", "iconifyClass": "logos-dart" },
+        { "name": "Supabase", "iconifyClass": "simple-icons:supabase" },
+        { "name": "MapLibre GL", "iconifyClass": "simple-icons:maplibre" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET06",
+      "name": "AEGIS - Adaptive Enforcement & Guardian Intelligence System",
+      "createdAt": "2026-01-10T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "A unified cybersecurity platform for internship assessment consisting of three integrated modules: TrustChain (tamper-evident cryptographic audit logging with SHA-256 hash chain), VaultRun (controlled code execution sandbox with AST analysis and runtime restrictions), and HoneySight (deception-based threat detection with behavioral analysis and real-time alerts). Features a professional dark-themed dashboard built with React and Tailwind CSS, backed by Python and SQLite.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "React", "iconifyClass": "logos-react" },
+        { "name": "SQLite", "iconifyClass": "simple-icons:sqlite" },
+        { "name": "Tailwind CSS", "iconifyClass": "logos-tailwindcss-icon" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET07",
+      "name": "AETRIX - Satellite Environmental Intelligence Platform",
+      "createdAt": "2025-09-20T00:00:00Z",
+      "url": "https://github.com/makadiyapreet",
+      "description": "All-India Environmental Telemetry & Risk Intelligence X — a smart city platform built for the PDEU AETRIX Hackathon. Integrates multi-satellite data (MODIS, Landsat, Sentinel-2, SMAP) with ML models to detect Urban Heat Islands, monitor vegetation health via NDVI, identify pollution hotspots, and forecast environmental trends. Features an AI-powered action plan generator using Groq (Llama 3.3 70B) for 4 major Indian cities: Ahmedabad, Bangalore, Delhi, and Mumbai.",
+      "isFork": false,
+      "languages": [
+        { "name": "React.js", "iconifyClass": "logos-react" },
+        { "name": "Spring Boot", "iconifyClass": "logos-spring-icon" },
+        { "name": "Java", "iconifyClass": "logos-java" },
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "FastAPI", "iconifyClass": "simple-icons:fastapi" },
+        { "name": "PostgreSQL", "iconifyClass": "logos-postgresql" },
+        { "name": "scikit-learn", "iconifyClass": "simple-icons:scikitlearn" }
+      ]
+    },
+    {
+      "id": "R_kgDO_PREET08",
       "name": "Coastal Threat Alert System",
       "createdAt": "2025-05-10T00:00:00Z",
       "url": "https://github.com/makadiyapreet/AI_Powered_Coastal_Threat_Alert_System",
@@ -37,7 +130,7 @@
       ]
     },
     {
-      "id": "R_kgDO_PREET03",
+      "id": "R_kgDO_PREET09",
       "name": "PreetVerseX - Personal Portfolio Website",
       "createdAt": "2025-11-05T00:00:00Z",
       "url": "https://github.com/makadiyapreet/PreetVerseX",
@@ -48,133 +141,6 @@
         { "name": "HTML", "iconifyClass": "logos-html-5" },
         { "name": "CSS", "iconifyClass": "logos-css-3" },
         { "name": "JavaScript", "iconifyClass": "logos-javascript" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET04",
-      "name": "Expense Management System with Smart Approvals",
-      "createdAt": "2025-04-02T00:00:00Z",
-      "url": "https://github.com/makadiyapreet/Expense_Management_System_with_Smart_Approvals",
-      "description": "A full-stack MERN application automating expense reimbursements through multi-level approval workflows, real-time currency conversion, smart OCR-based receipt scanning, and live dashboards for employees, managers, and admins.",
-      "isFork": false,
-      "languages": [
-        { "name": "React", "iconifyClass": "logos-react" },
-        { "name": "Node.js", "iconifyClass": "logos-nodejs" },
-        { "name": "Express.js", "iconifyClass": "simple-icons:express" },
-        { "name": "MongoDB", "iconifyClass": "logos-mongodb" },
-        { "name": "JavaScript", "iconifyClass": "logos-javascript" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET05",
-      "name": "Image Captioning and Segmentation",
-      "createdAt": "2025-02-20T00:00:00Z",
-      "url": "https://github.com/makadiyapreet/Image-Captioning-Segmentation",
-      "description": "A deep learning pipeline for natural language image captioning and object-level image segmentation built entirely from scratch using the MS COCO 2017 dataset — without any pre-trained models.",
-      "isFork": false,
-      "languages": [
-        { "name": "Python", "iconifyClass": "logos-python" },
-        { "name": "PyTorch", "iconifyClass": "simple-icons:pytorch" },
-        { "name": "Jupyter Notebook", "iconifyClass": "logos-jupyter" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET06",
-      "name": "AgroSphere - SQL-Based Smart Agriculture System",
-      "createdAt": "2024-06-15T00:00:00Z",
-      "url": "https://github.com/makadiyapreet/AgroSphere_SQL_project",
-      "description": "Seeds of Change: Transforming Global Food Systems from Farm to Fork. A structured SQL-based DBMS for smart agriculture enabling traceability, sustainability tracking, and farm analytics from soil to shelf.",
-      "isFork": false,
-      "languages": [
-        { "name": "SQL", "iconifyClass": "logos-mysql" },
-        { "name": "Workbench", "iconifyClass": "simple-icons:mysql" },
-        { "name": "Draw.io", "iconifyClass": "simple-icons:diagramsdotnet" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET07",
-      "name": "CyberShield - Network Vulnerability Scanner",
-      "createdAt": "2025-01-15T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
-      "description": "An automated network vulnerability assessment tool that performs comprehensive port scanning, service enumeration, and security auditing. Features real-time threat detection, CVE mapping, and detailed PDF report generation.",
-      "isFork": false,
-      "languages": [
-        { "name": "Python", "iconifyClass": "logos-python" },
-        { "name": "Nmap", "iconifyClass": "file-icons:nmap" },
-        { "name": "Bash", "iconifyClass": "logos-bash-icon" },
-        { "name": "Linux", "iconifyClass": "logos-linux-tux" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET08",
-      "name": "Stock Market Prediction using LSTM",
-      "createdAt": "2024-11-20T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
-      "description": "Time-series stock price prediction system using Long Short-Term Memory (LSTM) neural networks. Implements technical indicators, sentiment analysis from news data, and provides interactive visualization dashboards for market insights.",
-      "isFork": false,
-      "languages": [
-        { "name": "Python", "iconifyClass": "logos-python" },
-        { "name": "TensorFlow", "iconifyClass": "logos-tensorflow" },
-        { "name": "Pandas", "iconifyClass": "simple-icons:pandas" },
-        { "name": "Plotly", "iconifyClass": "simple-icons:plotly" },
-        { "name": "Streamlit", "iconifyClass": "simple-icons:streamlit" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET09",
-      "name": "SecureAuth - Multi-Factor Authentication System",
-      "createdAt": "2024-09-10T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
-      "description": "A robust authentication system implementing OAuth 2.0, JWT tokens, TOTP-based 2FA, and biometric verification. Features password strength analysis, brute-force protection, and comprehensive audit logging.",
-      "isFork": false,
-      "languages": [
-        { "name": "Node.js", "iconifyClass": "logos-nodejs" },
-        { "name": "Express.js", "iconifyClass": "simple-icons:express" },
-        { "name": "MongoDB", "iconifyClass": "logos-mongodb" },
-        { "name": "React", "iconifyClass": "logos-react" },
-        { "name": "JWT", "iconifyClass": "simple-icons:jsonwebtokens" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET10",
-      "name": "Digital Forensics Toolkit",
-      "createdAt": "2024-08-05T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
-      "description": "A comprehensive digital forensics suite for incident response and evidence collection. Includes memory analysis, disk imaging, file recovery, metadata extraction, and chain of custody documentation features.",
-      "isFork": false,
-      "languages": [
-        { "name": "Python", "iconifyClass": "logos-python" },
-        { "name": "C++", "iconifyClass": "logos-c-plusplus" },
-        { "name": "Bash", "iconifyClass": "logos-bash-icon" },
-        { "name": "SQLite", "iconifyClass": "simple-icons:sqlite" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET11",
-      "name": "AI Chatbot with NLP",
-      "createdAt": "2024-07-12T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
-      "description": "An intelligent conversational AI chatbot powered by natural language processing. Features intent classification, entity recognition, context-aware responses, and integration with multiple messaging platforms.",
-      "isFork": false,
-      "languages": [
-        { "name": "Python", "iconifyClass": "logos-python" },
-        { "name": "TensorFlow", "iconifyClass": "logos-tensorflow" },
-        { "name": "Flask", "iconifyClass": "simple-icons:flask" },
-        { "name": "NLTK", "iconifyClass": "simple-icons:python" },
-        { "name": "Docker", "iconifyClass": "logos-docker-icon" }
-      ]
-    },
-    {
-      "id": "R_kgDO_PREET12",
-      "name": "Password Cracker & Analyzer",
-      "createdAt": "2024-05-18T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
-      "description": "Educational tool demonstrating password security vulnerabilities. Implements dictionary attacks, brute-force methods, rainbow table lookups, and password strength meters to promote better security practices.",
-      "isFork": false,
-      "languages": [
-        { "name": "Python", "iconifyClass": "logos-python" },
-        { "name": "C", "iconifyClass": "logos-c" },
-        { "name": "Hashcat", "iconifyClass": "simple-icons:kalilinux" }
       ]
     }
   ]
