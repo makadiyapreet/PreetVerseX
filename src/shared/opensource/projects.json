@@ -20,7 +20,7 @@
       "id": "R_kgDO_PREET02",
       "name": "SentinelAI - Intelligent Web Application Firewall",
       "createdAt": "2025-07-05T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
+      "url": "https://github.com/makadiyapreet/SentinelAI",
       "description": "A production-grade AI-powered Web Application Firewall with full OWASP Top 10 (2021) coverage. Features 17 integrated security modules including ML-based anomaly detection (Isolation Forest + Logistic Regression), real-time SIEM dashboard, AI-powered attack explanations via Groq/Claude API, threat intelligence integration (AbuseIPDB, VirusTotal), honeypot traps, tamper-evident forensic logging, and automated multi-channel alerts. Comparable to junior versions of Cloudflare WAF and Imperva.",
       "isFork": false,
       "languages": [
@@ -34,9 +34,9 @@
     },
     {
       "id": "R_kgDO_PREET03",
-      "name": "CareerBoost AI - Advanced AI-Powered Career Assistant",
+      "name": "CareerPilot AI - Advanced AI-Powered Career Assistant",
       "createdAt": "2025-06-15T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
+      "url": "https://github.com/makadiyapreet/CareerPilot-AI",
       "description": "A comprehensive, production-ready career development platform leveraging AI to help job seekers succeed. Features ATS resume analysis with keyword optimization, job description parsing with match scoring, skill gap identification with personalized learning paths, 20+ career roadmaps with curated resources, AI-powered interview prep with real-time feedback, and a job application tracker. Built with React, FastAPI, spaCy NLP, and MongoDB.",
       "isFork": false,
       "languages": [
@@ -85,7 +85,7 @@
       "id": "R_kgDO_PREET06",
       "name": "AEGIS - Adaptive Enforcement & Guardian Intelligence System",
       "createdAt": "2026-01-10T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
+      "url": "https://github.com/makadiyapreet/AEGIS",
       "description": "A unified cybersecurity platform for internship assessment consisting of three integrated modules: TrustChain (tamper-evident cryptographic audit logging with SHA-256 hash chain), VaultRun (controlled code execution sandbox with AST analysis and runtime restrictions), and HoneySight (deception-based threat detection with behavioral analysis and real-time alerts). Features a professional dark-themed dashboard built with React and Tailwind CSS, backed by Python and SQLite.",
       "isFork": false,
       "languages": [
@@ -99,7 +99,7 @@
       "id": "R_kgDO_PREET07",
       "name": "AETRIX - Satellite Environmental Intelligence Platform",
       "createdAt": "2025-09-20T00:00:00Z",
-      "url": "https://github.com/makadiyapreet",
+      "url": "https://github.com/makadiyapreet/AETRIX",
       "description": "All-India Environmental Telemetry & Risk Intelligence X — a smart city platform built for the PDEU AETRIX Hackathon. Integrates multi-satellite data (MODIS, Landsat, Sentinel-2, SMAP) with ML models to detect Urban Heat Islands, monitor vegetation health via NDVI, identify pollution hotspots, and forecast environmental trends. Features an AI-powered action plan generator using Groq (Llama 3.3 70B) for 4 major Indian cities: Ahmedabad, Bangalore, Delhi, and Mumbai.",
       "isFork": false,
       "languages": [
