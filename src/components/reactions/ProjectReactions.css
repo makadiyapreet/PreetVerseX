@@ -1,0 +1,47 @@
+/* Project Reactions */
+.reactions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.reaction-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: var(--font-body);
+}
+
+.reaction-btn:hover {
+  transform: scale(1.05);
+  border-color: var(--accent);
+}
+
+.reaction-btn.active {
+  background: rgba(74, 144, 217, 0.12);
+  border-color: var(--accent);
+}
+
+.reaction-emoji {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.reaction-count {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--text-sub);
+}
+
+.reaction-btn.active .reaction-count {
+  color: var(--accent);
+}

@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "હોમ",
+    "education": "શિક્ષણ",
+    "experience": "અનુભવ",
+    "projects": "પ્રોજેક્ટ્સ",
+    "contact": "સંપર્ક કરો",
+    "cyber": "સાઇબર મોડ"
+  },
+  "hero": {
+    "greeting": "નમસ્કાર! 👋",
+    "bio": "એક ઉત્સાહી વ્યક્તિ જે end-to-end ઉત્પાદો બનાવવામાં ઉત્કૃષ્ટ છે — ટકાઉ અને scalable સિસ્ટમ્સ જે વાસ્તવિક અસર ઊભી કરે છે.",
+    "github_btn": "★ GitHub પર Star કરો",
+    "contact_btn": "જોડાઓ →"
+  },
+  "sections": {
+    "what_i_do": "હું શું કરું છું",
+    "education": "શિક્ષણ",
+    "certifications": "પ્રમાણપત્રો",
+    "experience": "અનુભવ",
+    "projects": "પ્રોજેક્ટ્સ",
+    "contact": "સંપર્ક",
+    "blogs": "નવીનત્તમ પોસ્ટ",
+    "achievements": "સિદ્ધિઓ"
+  },
+  "contact": {
+    "name_label": "તમારું નામ",
+    "email_label": "તમારો ઈમેઈલ",
+    "subject_label": "વિષય",
+    "message_label": "સંદેશ",
+    "send_btn": "સંદેશ મોકલો →",
+    "sending": "મોકલાઈ રહ્યો છે...",
+    "sent": "✓ સંદેશ મોકલાઈ ગયો!",
+    "error": "નિષ્ફળ — ફરીથી પ્રયાસ કરો",
+    "success_msg": "આભાર! હું 24 કલાકમાં જવાબ આપીશ."
+  }
+}

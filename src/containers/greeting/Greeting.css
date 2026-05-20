@@ -1,95 +1,276 @@
-.main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
-}
-.greet-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
+/* ===========================
+   Greeting / Hero Section
+   =========================== */
 
-.gretting-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-}
-
-.greeting-main {
+.greeting-section {
+  position: relative;
+  min-height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 24px 60px;
+  overflow: hidden;
 }
 
-.greeting-main > * {
-  flex: 1;
-  margin-bottom: 30px;
+/* Grid background */
+.greeting-bg-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+  background-image:
+    repeating-linear-gradient(0deg, var(--border) 0, var(--border) 1px, transparent 1px, transparent 40px),
+    repeating-linear-gradient(90deg, var(--border) 0, var(--border) 1px, transparent 1px, transparent 40px);
+  pointer-events: none;
+  z-index: 0;
 }
-.button-greeting-div {
+
+.greeting-content {
+  position: relative;
+  z-index: 1;
   display: flex;
-  margin-top: 20px;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
+/* ---- Text Side ---- */
 .greeting-text {
-  margin-top: 80px;
-  font-size: 70px;
+  flex: 1;
+  min-width: 0;
+}
+
+.greeting-tag {
+  display: inline-block;
+  background: rgba(74, 144, 217, 0.12);
+  color: var(--accent);
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.greeting-name {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-family: "Agustina Regular", var(--font-body);
+  font-weight: 700;
+  color: var(--text);
   line-height: 1.1;
-  font-family: "Google Sans Bold";
+  margin-bottom: 16px;
 }
 
-.greeting-nickname {
-  font-size: 30px;
-  line-height: 0px;
-  font-family: "Google Sans Bold Italic";
+.accent-name {
+  color: var(--accent);
 }
 
-.greeting-text-p {
-  font-size: 40px;
-  line-height: 40px;
-  margin-right: 40px;
-  font-family: "Google Sans Medium";
+.greeting-role-line {
+  font-size: 1.15rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
-.greeting-image-div > * {
-  max-width: 100%;
+.role-prefix {
+  color: var(--text-sub);
+  font-weight: 400;
+}
+
+.role-typed {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.greeting-bio {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-sub);
+  margin-bottom: 28px;
+  max-width: 520px;
+}
+
+.greeting-bio strong {
+  color: var(--text);
+}
+
+/* ---- CTA Buttons ---- */
+.greeting-actions {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--primary);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border: none;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(13, 33, 55, 0.25);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  color: var(--primary);
+  padding: 11px 26px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1.5px solid var(--primary);
+  transition: all 0.25s ease;
+}
+
+.btn-outline:hover {
+  background: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ---- Illustration Side ---- */
+.greeting-illustration {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.hero-svg {
+  width: 100%;
+  max-width: 480px;
   height: auto;
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-  .greeting-text-p {
-    font-size: 20px;
-  }
+/* ---- Floating Stat Badges ---- */
+.stat-badge {
+  position: absolute;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--shadow);
+  animation: float 3s ease-in-out infinite;
+  z-index: 2;
 }
-@media (max-width: 768px) {
-  .button-greeting-div {
-    justify-content: space-around;
-  }
-  .greeting-text {
-    font-size: 30px;
-    margin-top: 0px;
+
+.stat-num {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-sub);
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.badge-1 {
+  top: 10%;
+  right: -10px;
+  animation-delay: 0s;
+}
+
+.badge-2 {
+  bottom: 25%;
+  right: -15px;
+  animation-delay: 0.8s;
+}
+
+.badge-3 {
+  top: 55%;
+  left: -10px;
+  animation-delay: 1.6s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+  .greeting-content {
+    flex-direction: column;
     text-align: center;
-  }
-  .greeting-nickname {
-    font-size: 25px;
-    text-align: center;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    margin-right: 0px;
-    line-height: normal;
-    text-align: center;
-  }
-  .greeting-main {
-    display: block;
+    gap: 40px;
   }
 
-  .portfolio-repo-btn-div {
-    width: 100%;
+  .greeting-text {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .greeting-role-line {
     justify-content: center;
+  }
+
+  .greeting-bio {
+    text-align: center;
+  }
+
+  .greeting-actions {
+    justify-content: center;
+  }
+
+  .greeting-illustration {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .stat-badge {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .greeting-section {
+    padding: 80px 16px 40px;
+  }
+
+  .greeting-name {
+    font-size: 2rem;
+  }
+
+  .greeting-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-primary, .btn-outline {
+    justify-content: center;
+    width: 100%;
   }
 }

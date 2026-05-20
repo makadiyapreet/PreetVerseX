@@ -1,0 +1,155 @@
+/* ===========================
+   Cyber About Page
+   =========================== */
+
+.cyberabout-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+
+.cyberabout-split {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+/* ---- Photo Side ---- */
+.cyberabout-photo-wrap {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Hex frame: outer provides the gradient border, inner clips the photo */
+.cyberabout-hex-outer {
+  width: 224px;
+  height: 224px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: linear-gradient(135deg, #FF2D55, #050508 40%, #00FF9C);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: cyberHexGlow 3s ease-in-out infinite;
+  position: relative;
+}
+
+.cyberabout-hex-inner {
+  width: 216px;
+  height: 216px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: #0D0D14;
+  overflow: hidden;
+}
+
+@keyframes cyberHexGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(255, 45, 85, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(255, 45, 85, 0.5)) drop-shadow(0 0 8px rgba(0, 255, 156, 0.2));
+  }
+}
+
+.cyberabout-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: cyberPhotoFloat 4s ease-in-out infinite;
+}
+
+@keyframes cyberPhotoFloat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+.cyberabout-name-tag {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cyberabout-codename {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: #FF2D55;
+}
+
+.cyberabout-fullname {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #E0E8FF;
+}
+
+.cyberabout-title-tag {
+  font-size: 0.62rem;
+  color: #6B7A99;
+  letter-spacing: 0.08em;
+}
+
+/* ---- Terminal Side ---- */
+.cyberabout-terminal {
+  flex: 1;
+  min-width: 0;
+}
+
+.cyberabout-term-title {
+  font-size: 0.68rem;
+  color: #6B7A99;
+  margin-left: 10px;
+  font-family: 'Space Mono', monospace;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .cyberabout-split {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cyberabout-hex-outer {
+    width: 168px;
+    height: 168px;
+  }
+
+  .cyberabout-hex-inner {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Dossier Download Button */
+.cyber-dossier-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 10px 24px;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--terminal, #00FF9C);
+  background: transparent;
+  border: 1px solid var(--terminal, #00FF9C);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cyber-dossier-btn:hover {
+  background: rgba(0, 255, 156, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 156, 0.2), inset 0 0 20px rgba(0, 255, 156, 0.05);
+  transform: translateY(-2px);
+}
+
+.dossier-icon {
+  font-size: 1rem;
+}

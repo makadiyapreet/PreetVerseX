@@ -58,7 +58,7 @@ const socialMediaLinks = [
   },
   {
     name: "X-Twitter",
-    link: "hhttps://x.com/PreetMakadiya",
+    link: "https://x.com/PreetMakadiya",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
@@ -240,7 +240,6 @@ const degrees = {
         "⚡ Specializations including Artificial Intelligence, Deep Learning, Data Science, Cloud Computing, Cyber Security, Cryptography, and Network Security. ",
         "⚡ Frontend and backend web development including Web Technology, Advanced Java, and Full Stack Development concepts.",
         "⚡ Practical labs and projects for applied learning on programming, system design, web development, security, and data mining.",
-        "⚡ Electives and advanced topics such as Distributed Systems, Mobile Computing, Real-Time Systems, Digital Forensics, and Big Data Analytics.",
         "⚡ Electives and advanced topics such as Distributed Systems, Mobile Computing, Real-Time Systems, Digital Forensics, and Big Data Analytics.",
         "⚡ Emphasis on formal verification, software project management, communication skills, and technical writing to prepare students for professional success.",
         "⚡ Additional opportunities like industrial training, technical seminars, and hands-on labs for holistic exposure and skill development.",
@@ -548,6 +547,192 @@ const contactPageData = {
 };
 
 
+// Achievements Section
+const achievements = [
+  { title: "9+ Projects Built", icon: "🚀", desc: "From AI models to cybersecurity tools and full-stack apps" },
+  { title: "12+ Certifications", icon: "🏆", desc: "Across cybersecurity, AI, data science, and design" },
+  { title: "2 Internships Completed", icon: "💼", desc: "Cyber Forensics at Forensic Knight, Data Science at Zidio" },
+  { title: "Vice President, SOM PDEU", icon: "👑", desc: "Leading the Society of Mathematics strategic initiatives" },
+  { title: "ISRO Hackathon Participant", icon: "🛸", desc: "Bharatiya Antariksh Hackathon 2025" },
+  { title: "Walmart Sparkathon", icon: "⚡", desc: "Converge track appreciation from Walmart Global Tech" },
+];
+
+// Skill Proficiency Bars
+const skillBars = {
+  categories: [
+    {
+      title: "Programming",
+      bars: [
+        { name: "Python", level: 90 },
+        { name: "React", level: 80 },
+        { name: "Django", level: 75 },
+        { name: "C/C++", level: 70 },
+        { name: "MySQL", level: 75 },
+      ]
+    },
+    {
+      title: "Cybersecurity",
+      bars: [
+        { name: "Kali Linux", level: 85 },
+        { name: "Metasploit", level: 75 },
+        { name: "Wireshark", level: 80 },
+        { name: "Nmap", level: 80 },
+      ]
+    },
+    {
+      title: "AI / ML",
+      bars: [
+        { name: "TensorFlow", level: 80 },
+        { name: "PyTorch", level: 70 },
+        { name: "Data Analysis", level: 85 },
+      ]
+    },
+    {
+      title: "Design",
+      bars: [
+        { name: "Photoshop", level: 80 },
+        { name: "Illustrator", level: 75 },
+        { name: "Canva", level: 90 },
+      ]
+    },
+  ]
+};
+
+// Interactive Timeline
+const timeline = [
+  { year: "2021", title: "Started Higher Secondary", org: "Shakti Higher Secondary School", desc: "Began science stream with Physics, Chemistry, Math & CS" },
+  { year: "2022", title: "Graphic Designing Head", org: "Society of Mathematics, PDEU", desc: "Led visual creative direction and brand identity" },
+  { year: "2023", title: "B.Tech. in Computer Engineering", org: "Pandit Deendayal Energy University", desc: "Started undergraduate program in Computer Engineering" },
+  { year: "2023", title: "Vice President, SOM PDEU", org: "Society of Mathematics", desc: "Overseeing strategic initiatives and managing operations" },
+  { year: "2023", title: "Graphic Designer", org: "Adorebits Technology", desc: "Contributing to branding, UI/UX, and product design" },
+  { year: "2024", title: "Data Science Intern", org: "Zidio Development", desc: "AI-based forecasting, image captioning, and predictive analytics" },
+  { year: "2024-25", title: "Cyber Forensics Intern", org: "Forensic Knight", desc: "Digital investigations, forensic analysis, and penetration testing" },
+  { year: "2025", title: "Multiple Certifications", org: "Oracle, ISRO, Deloitte, Mastercard", desc: "Oracle Cloud AI, ISRO Hackathon, cybersecurity job simulations" },
+];
+
+// Projects Data
+const projects = [
+  {
+    id: "swagat-caterers",
+    name: "Swagat Caterers – Enterprise Catering Management System",
+    desc: "A complete digital transformation of a traditional catering business — built over 46 days into a full enterprise platform.",
+    longDesc: "Full enterprise catering management system with Django backend, React frontend, PostgreSQL database. Features online booking, menu management, staff scheduling, and analytics dashboard.",
+    tags: ["Django", "React", "PostgreSQL", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/makadiyapreet/swagat-caterers",
+    live: "",
+    date: "2024-12-04",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: "sentinelai",
+    name: "SentinelAI – Intelligent Web Application Firewall",
+    desc: "A production-grade AI-powered Web Application Firewall with full OWASP Top 10 coverage.",
+    longDesc: "AI-powered WAF detecting SQL injection, XSS, CSRF, and more. Real-time threat intelligence dashboard with ML-based anomaly detection.",
+    tags: ["Python", "FastAPI", "React", "PostgreSQL", "Docker"],
+    github: "https://github.com/makadiyapreet/sentinelai",
+    live: "",
+    date: "2025-07-05",
+    featured: true,
+    category: "Cybersecurity",
+    cyberProject: true,
+  },
+  {
+    id: "careerpilot-ai",
+    name: "CareerPilot AI – Advanced AI-Powered Career Assistant",
+    desc: "A comprehensive, production-ready career development platform leveraging AI to help with job search and career planning.",
+    longDesc: "Full career development platform with AI-powered resume analysis, job matching, interview preparation, and career trajectory planning.",
+    tags: ["React", "FastAPI", "Python", "MongoDB", "spaCy"],
+    github: "https://github.com/makadiyapreet/careerpilot-ai",
+    live: "",
+    date: "2025-06-15",
+    featured: true,
+    category: "AI/ML",
+  },
+  {
+    id: "gate-master",
+    name: "GATE MASTER – Comprehensive Web-Based GATE Preparation Platform",
+    desc: "A full-stack educational platform for GATE Computer Science aspirants featuring practice zones and realistic mock tests.",
+    longDesc: "Comprehensive GATE CS preparation platform with practice zones, mock tests, performance analytics, and topic-wise question banks.",
+    tags: ["React", "Django", "Python", "PHP", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/makadiyapreet/gate-master",
+    live: "",
+    date: "2025-08-28",
+    category: "Full Stack",
+  },
+  {
+    id: "geowar-fitness",
+    name: "GeoWar-Fitness – Location-Based Territory Capture Game",
+    desc: "A location-based fitness game built with Flutter where players compete to capture real-world territory.",
+    longDesc: "Mobile fitness game using GPS-based territory capture mechanics. Players walk/run to claim zones, compete with others, and track fitness stats.",
+    tags: ["Flutter", "Firebase", "Supabase"],
+    github: "https://github.com/makadiyapreet/geowar-fitness",
+    live: "",
+    date: "2025-03-15",
+    category: "Mobile",
+  },
+  {
+    id: "aegis",
+    name: "AEGIS – Adaptive Enforcement & Guardian Intelligence System",
+    desc: "A unified cybersecurity platform for internship security assessment with three integrated modules.",
+    longDesc: "Unified cybersecurity assessment platform with vulnerability scanning, compliance checking, and threat intelligence modules.",
+    tags: ["Python", "React", "Tailwind", "Supabase"],
+    github: "https://github.com/makadiyapreet/aegis",
+    live: "",
+    date: "2026-01-10",
+    category: "Cybersecurity",
+    cyberProject: true,
+  },
+  {
+    id: "aetrix",
+    name: "AETRIX – Satellite Environmental Intelligence Platform",
+    desc: "All-India Environmental Telemetry & Risk Intelligence X — a smart city platform built for PDEU AETRIX.",
+    longDesc: "Environmental monitoring platform using satellite data for air quality, water quality, and natural disaster risk assessment across India.",
+    tags: ["React", "Python", "Java", "FastAPI", "PostgreSQL"],
+    github: "https://github.com/makadiyapreet/aetrix",
+    live: "",
+    date: "2025-09-20",
+    category: "AI/ML",
+  },
+  {
+    id: "coastal-threat",
+    name: "Coastal Threat Alert System",
+    desc: "AI-powered real-time early warning platform for India's coastal regions with live sensor data and satellite integration.",
+    longDesc: "Real-time coastal threat monitoring using AI with sensor fusion, satellite imagery analysis, and automated alert systems for disaster preparedness.",
+    tags: ["Python", "FastAPI", "TensorFlow", "PostgreSQL", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/makadiyapreet/coastal-threat",
+    live: "",
+    date: "2025-05-10",
+    category: "AI/ML",
+  },
+  {
+    id: "preetversex",
+    name: "PreetVerseX – Personal Portfolio Website",
+    desc: "A fully responsive and animated personal portfolio built using React.js.",
+    longDesc: "Personal portfolio website with theme switching, animated components, skills visualization, and project showcase.",
+    tags: ["React", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/makadiyapreet/preetversex",
+    live: "https://preetversex.netlify.app",
+    date: "2025-11-05",
+    category: "Full Stack",
+  },
+];
+
+// Availability
+const availability = {
+  isAvailable: true,
+  status: "Open to Work",
+};
+
+// Testimonials
+const testimonials = [
+  {
+    quote: "Preet has demonstrated exceptional professionalism, strong analytical ability, and a consistent commitment to excellence. His reliability, technical competence, and proactive approach made him a standout contributor throughout the internship.",
+    name: "Smit Shah",
+    title: "Founder, Forensic Knight",
+    photo: null,
+  },
+];
 
 export {
   settings,
@@ -563,4 +748,10 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  achievements,
+  skillBars,
+  timeline,
+  projects,
+  availability,
+  testimonials,
 };

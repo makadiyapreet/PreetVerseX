@@ -1,14 +1,21 @@
+/* ===========================
+   Experience Page
+   =========================== */
+
 .experience-main {
   width: 100%;
 }
 
 .basic-experience {
-  margin-left: 5%;
-  margin-right: 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 24px 20px;
 }
 
 .experience-heading-div {
   display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .experience-heading-div > * {
@@ -31,58 +38,38 @@
 }
 
 .experience-heading-text {
-  font-size: 56px;
-  font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  font-family: var(--font-body);
   line-height: 1.1;
   text-align: center;
-  margin-top: 80px;
+  color: var(--text);
+  margin-bottom: 8px;
 }
 
 .experience-heading-sub-text {
-  font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-size: 1.1rem;
+  font-family: var(--font-body);
   text-align: center;
+  color: var(--text-sub);
   margin-bottom: 10px;
 }
 
 .experience-header-detail-text {
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: "Google Sans Medium";
-}
-
-@media (max-width: 1380px) {
-  .experience-heading-text {
-    font-size: 50px;
-    margin-top: 80px;
-  }
-  .experience-heading-sub-text {
-    font-size: 25px;
-  }
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-sub);
+  font-family: var(--font-body);
+  margin: 0 20px;
 }
 
 @media (max-width: 768px) {
-  .experience-heading-text {
-    font-size: 30px;
-    margin-top: 20px;
-  }
-
-  .experience-heading-sub-text {
-    font-size: 20px;
-  }
-
   .experience-heading-div {
     flex-direction: column;
   }
 
   .experience-header-detail-text {
-    font-size: 16px;
-    margin-right: 0px;
-    line-height: normal;
+    margin: 0;
     text-align: center;
   }
 }

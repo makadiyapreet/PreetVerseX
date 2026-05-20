@@ -1,0 +1,119 @@
+/* Konami Code Easter Egg */
+
+.konami-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.92);
+  animation: konami-flash 0.3s ease;
+  cursor: pointer;
+}
+
+@keyframes konami-flash {
+  0% { background: rgba(255, 0, 0, 0.8); }
+  50% { background: rgba(0, 0, 0, 0.95); }
+  100% { background: rgba(0, 0, 0, 0.92); }
+}
+
+.konami-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Siren bars */
+.konami-siren-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #FF0000, transparent);
+  animation: konami-siren 0.5s ease-in-out infinite alternate;
+}
+
+.konami-siren-bar.top { top: 0; }
+.konami-siren-bar.bottom { bottom: 0; animation-delay: 0.25s; }
+
+@keyframes konami-siren {
+  0% { opacity: 0.3; box-shadow: 0 0 20px rgba(255, 0, 0, 0.3); }
+  100% { opacity: 1; box-shadow: 0 0 60px rgba(255, 0, 0, 0.6); }
+}
+
+/* Center content */
+.konami-center {
+  text-align: center;
+  animation: konami-scale-in 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes konami-scale-in {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.konami-icon {
+  font-size: 4rem;
+  animation: konami-pulse 0.6s ease-in-out infinite alternate;
+  margin-bottom: 12px;
+}
+
+@keyframes konami-pulse {
+  0% { transform: scale(1); filter: brightness(1); }
+  100% { transform: scale(1.1); filter: brightness(1.5); }
+}
+
+.konami-title {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(3rem, 10vw, 5rem);
+  font-weight: 900;
+  color: #FF0000;
+  margin: 0;
+  letter-spacing: 0.15em;
+  text-shadow: 0 0 30px rgba(255, 0, 0, 0.6), 0 0 60px rgba(255, 0, 0, 0.3);
+  animation: konami-title-glow 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes konami-title-glow {
+  0% { text-shadow: 0 0 20px rgba(255, 0, 0, 0.4); }
+  100% { text-shadow: 0 0 40px rgba(255, 0, 0, 0.8), 0 0 80px rgba(255, 0, 0, 0.4); }
+}
+
+.konami-sub {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9rem;
+  color: rgba(255, 100, 100, 0.8);
+  letter-spacing: 0.2em;
+  margin: 8px 0 24px;
+}
+
+.konami-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  color: rgba(255, 200, 200, 0.6);
+  margin-bottom: 24px;
+}
+
+.konami-dismiss {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.82rem;
+  color: #FF0000;
+  background: transparent;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  padding: 10px 28px;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  transition: all 0.2s ease;
+}
+
+.konami-dismiss:hover {
+  background: rgba(255, 0, 0, 0.15);
+  border-color: #FF0000;
+}

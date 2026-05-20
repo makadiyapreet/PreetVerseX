@@ -1,0 +1,77 @@
+/* ===========================
+   Animated Skill Bars
+   =========================== */
+
+.skillbars-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 1000px;
+  margin: 40px auto 20px;
+}
+
+.skillbars-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.skillbars-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.skillbar-row {
+  margin-bottom: 14px;
+}
+
+.skillbar-row:last-child {
+  margin-bottom: 0;
+}
+
+.skillbar-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.skillbar-name {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.skillbar-pct {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.skillbar-track {
+  width: 100%;
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skillbar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), #6bb3f0);
+  border-radius: 4px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skillbars-grid {
+    grid-template-columns: 1fr;
+  }
+}

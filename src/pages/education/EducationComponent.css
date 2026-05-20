@@ -1,71 +1,323 @@
+/* ===========================
+   Education Page
+   =========================== */
+
 .education-main {
   width: 100%;
 }
 
-.basic-education {
-  margin-left: 5%;
-  margin-right: 5%;
+/* Hero */
+.edu-hero {
+  padding: 100px 24px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.heading-div {
-  display: flex;
-}
-
-.heading-div > * {
-  flex: 1;
-}
-
-.heading-img-div {
+.edu-hero-content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 40px;
 }
 
-.heading-text-div {
+.edu-hero-text {
+  flex: 1;
   text-align: center;
 }
 
-.heading-img-div > * {
+.edu-hero-img {
+  flex: 1;
+  max-width: 400px;
+}
+
+.edu-hero-img > * {
   max-width: 100%;
   height: auto;
 }
 
-.heading-text {
-  font-size: 56px;
+.edu-title {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-family: var(--font-body);
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.edu-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-sub);
   font-weight: 400;
-  font-family: "Google Sans Medium";
-  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+/* Section Heading */
+.edu-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
   text-align: center;
-  margin-top: 100px;
+  margin-bottom: 40px;
+  position: relative;
 }
 
-.heading-sub-text {
-  font-size: 30px;
-  font-family: "Google Sans Regular";
+.section-heading::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin: 12px auto 0;
+}
+
+/* ---- School Timeline ---- */
+.school-timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+  transform: translateX(-50%);
+}
+
+.school-card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  position: relative;
+  width: 50%;
+}
+
+.school-card.left {
+  padding-right: 50px;
+  justify-content: flex-end;
+  margin-left: 0;
+}
+
+.school-card.right {
+  padding-left: 50px;
+  margin-left: 50%;
+}
+
+.school-dot {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: var(--shadow);
+}
+
+.school-card.left .school-dot {
+  right: -32px;
+}
+
+.school-card.right .school-dot {
+  left: -32px;
+}
+
+.school-logo {
+  width: 57px;
+  height: 57px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.school-body {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 440px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.school-body:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(13, 33, 55, 0.12);
+}
+
+.school-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.school-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.school-duration {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent);
+  white-space: nowrap;
+  padding: 2px 10px;
+  background: rgba(74, 144, 217, 0.1);
+  border-radius: 100px;
+}
+
+.school-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-sub);
+  margin-bottom: 12px;
+}
+
+.school-points {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+
+.school-points li {
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  padding: 3px 0;
+  padding-left: 16px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.school-points li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.school-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.school-link:hover {
+  color: var(--primary);
+}
+
+/* ---- Certification Grid ---- */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.cert-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 16px;
+  text-decoration: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-@media (max-width: 1380px) {
-  .heading-text {
-    font-size: 50px;
-    margin-top: 80px;
+.cert-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 30px rgba(13, 33, 55, 0.12);
+}
+
+.cert-logo-wrap {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.cert-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.cert-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 4px;
+  line-height: 1.3;
+}
+
+.cert-issuer {
+  font-size: 0.78rem;
+  color: var(--text-sub);
+  margin: 0;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+  .edu-hero-content {
+    flex-direction: column;
+    text-align: center;
   }
-  .heading-sub-text {
-    font-size: 25px;
+
+  .timeline-line {
+    left: 20px;
+  }
+
+  .school-card,
+  .school-card.left,
+  .school-card.right {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 60px;
+    padding-right: 0;
+    justify-content: flex-start;
+  }
+
+  .school-card.left .school-dot,
+  .school-card.right .school-dot {
+    left: -4px;
+    right: auto;
+  }
+
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 768px) {
-  .heading-text {
-    font-size: 30px;
-    margin-top: 20px;
+@media (max-width: 480px) {
+  .cert-grid {
+    grid-template-columns: 1fr;
   }
 
-  .heading-sub-text {
-    font-size: 20px;
+  .school-body {
+    padding: 18px;
   }
 
-  .heading-div {
+  .school-header-row {
     flex-direction: column;
   }
 }

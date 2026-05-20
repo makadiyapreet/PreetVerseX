@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Doughnut } from "react-chartjs-2";
-import { Fade } from "react-reveal";
+import { Fade } from 'react-awesome-reveal';
 import "./PullRequestChart.css";
 import PullRequestData from "../../shared/opensource/pull_requests.json";
 
@@ -23,7 +23,7 @@ class PullRequestChart extends Component {
 
     return (
       <div className="pr-chart">
-        <Fade bottom duration={2000} distance="20px">
+        <Fade direction="up" duration={2000}>
           <h2 className="pr-chart-header">Pull Request Distribution</h2>
         </Fade>
         <Doughnut

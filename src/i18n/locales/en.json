@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact Me",
+    "cyber": "Cyber Mode"
+  },
+  "hero": {
+    "greeting": "Hello, World! 👋",
+    "bio": "A passionate individual who thrives building end-to-end products — sustainable, scalable systems that create real-world impact.",
+    "github_btn": "★ Star Me On GitHub",
+    "contact_btn": "Let's Connect →"
+  },
+  "sections": {
+    "what_i_do": "What I Do",
+    "education": "Education",
+    "certifications": "Certifications",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Let's Connect",
+    "blogs": "Latest Posts",
+    "achievements": "Achievements"
+  },
+  "contact": {
+    "name_label": "Your Name",
+    "email_label": "Your Email",
+    "subject_label": "Subject",
+    "message_label": "Message",
+    "send_btn": "Send Message →",
+    "sending": "Sending...",
+    "sent": "✓ Message Sent!",
+    "error": "Failed — Try Again",
+    "success_msg": "Thanks! I'll get back to you within 24 hours."
+  }
+}

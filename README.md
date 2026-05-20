@@ -1,251 +1,751 @@
-<p align="center"> 
-    <img src="src/assets/images/masterportfolio-banner-light.png" align="center" height="1500"></img>
-</p>
-
-<h1 align="center"> PreetVerseX — Developer Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio <br /> template for Software Developers! </h3>
+<h1 align="center">
+  <br>
+  ⬡ PreetVerseX
+  <br>
+</h1>
 
 <p align="center">
-  <a href="http://hits.dwyl.com/makadiyapreet/PreetVerseX">
-  <img alt="HitCount" src="https://hits.dwyl.com/makadiyapreet/PreetVerseX.svg?style=flat" />
-</a>
-  <a href="https://nodejs.org/en/blog/release/v20.11.1"><img alt="NodeJS" src="https://img.shields.io/badge/node-20.11.1-important?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/npm/v/10.2.4"><img alt="NPM" src="https://img.shields.io/badge/npm-10.2.4-blueviolet?style=flat-square" /></a>
-  <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
-  <a href="https://join.slack.com/t/masterportfolio/shared_invite/zt-g772n1fo-Ns4usanURF8jVb8wk2lRAA"><img alt="Join Slack Channel For Support" src="https://img.shields.io/badge/slack-masterPortfolio-yellow.svg?logo=slack?style=flat-square" /></a>
-  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
-  <br/>
-  <a href="https://app.netlify.com/sites/ashutosh1919portfolio/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
-  <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
-  <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
-  <a href="https://github.com/ashutosh1919/masterPortfolio/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
-  <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
-  <a href="https://ashutoshhathidara.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
-  <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&pause=1000&color=4A90D9&center=true&vCenter=true&random=false&width=500&lines=Cybersecurity+Enthusiast;Full+Stack+Developer;AI+%2F+ML+Engineer;GATE+CS+Qualified;Building+the+future+%E2%80%94+one+commit+at+a+time" alt="Typing SVG" />
 </p>
 
-<p align="center"> 
-    <a href="[https://makadiyapreet.github.io](https://makadiyapreet.github.io/PreetVerseX/)" target="_blank">
-  </a>
+<p align="center">
+  <strong>A next-generation dual-mode portfolio — professional showcase meets cybersecurity playground.</strong>
 </p>
 
-:star: Star us on GitHub — it helps!
+<p align="center">
+  <a href="https://preetversex.netlify.app"><img src="https://img.shields.io/badge/🌐_Live_Demo-preetversex.netlify.app-4A90D9?style=for-the-badge" alt="Live" /></a>
+  <a href="https://github.com/makadiyapreet"><img src="https://img.shields.io/badge/GitHub-makadiyapreet-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/preet-makadiya-13102004-p"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+</p>
 
-# Sections 📚
+<p align="center">
+  <img src="https://img.shields.io/badge/React-16.14-61DAFB?style=flat-square&logo=react" />
+  <img src="https://img.shields.io/badge/Router-v5.3-CA4245?style=flat-square&logo=reactrouter" />
+  <img src="https://img.shields.io/badge/CSS_Variables-Custom_Theming-264de4?style=flat-square&logo=css3" />
+  <img src="https://img.shields.io/badge/Framer_Motion-Animations-0055FF?style=flat-square&logo=framer" />
+  <img src="https://img.shields.io/badge/i18n-EN_|_HI_|_GU-green?style=flat-square&logo=i18next" />
+  <img src="https://img.shields.io/badge/AI-Groq_LLM-F55036?style=flat-square" />
+  <img src="https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=flat-square&logo=netlify" />
+  <img src="https://img.shields.io/badge/License-Private-red?style=flat-square" />
+</p>
 
-✔️ Summary and About me\
-✔️ Skills \
-✔️ Open Source Projects Connected with Github\ (Adding Soon !!)
-✔️ Experience\
-✔️ Certifications 🏆\
-✔️ Blogs\
-✔️ Education\
-✔️ Contact me
+---
 
-To view a live example, **[click here](https://makadiyapreet.github.io/PreetVerseX/)**
+## 📋 Table of Contents
 
-# Table of Contents
- - [Clone and Use](#clone-and-use)
- - [Customizing](#customize-it-to-make-your-own-portfolio)
- - [Choose Theme](#choose-theme)
- - [Deployment](#deployment)
- - [Technologies Used](#technologies-used)
- - [Illustrations](#illustrations)
- - [License](#license)
- - [Contributors](#contributors)
- - [References](#references)
+- [About](#-about)
+- [Features Overview](#-features-overview)
+- [Normal Mode](#-normal-mode)
+- [Cyber Mode](#-cyber-mode)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Quick Start](#-quick-start)
+- [Environment Variables](#-environment-variables)
+- [Routes](#-routes)
+- [Keyboard Shortcuts](#-keyboard-shortcuts)
+- [Cyber Terminal Commands](#-cyber-terminal-commands)
+- [Components Guide](#-components-guide)
+- [Deployment](#-deployment)
+- [API Keys Setup](#-api-keys-setup)
+- [Browser Support](#-browser-support)
+- [Changelog](#-changelog)
+- [Acknowledgments](#-acknowledgments)
 
-# Clone and Use 📋
+---
 
-- The website is completely built on `react-js` library of `javascript` and that's why we need `nodejs` and `npm` installed
-- While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above
-- In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
-- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
-  ```bash
-   git clone https://github.com/makadiyapreet/PreetVerseX.git
-  ```
-  This will clone the whole repository in your system.
-- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
-  ```node
-  npm install
-  ```
-- Now the project is ready to use
-- You can check it using `npm start`, it will open the website locally on your browser.
+## 🧑‍💻 About
 
-# Customize it to make your own portfolio ✏️
+**PreetVerseX** is a feature-rich developer portfolio built by **Preet Makadiya** — a B.Tech CSE student at **Pandit Deendayal Energy University (PDEU)** with a CGPA of **8.63**, passionate about **cybersecurity**, **AI/ML**, and **full-stack development**.
 
-In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
+This isn't just a portfolio — it's a **dual-mode experience**:
 
-### package.json
+- **Normal Mode** — A polished, professional portfolio with glassmorphism design, i18n support, AI chatbot, project reactions, and a web-based resume viewer.
+- **Cyber Mode** — A fully immersive hacking-themed environment with an interactive terminal simulator (25+ commands), Threat Matrix reflex game, interactive Kill Chain, and CTF writeups.
 
-Open this file, which is in the main cloned directory, choose any "name" and change "homepage " to `https://<your-github-username>.github.io`. Do not forget the `https://`, otherwise fonts will not load.
+> **Live at:** [preetversex.netlify.app](https://preetversex.netlify.app)
 
-### Personal Information
+---
 
-You will find `src/portfolio.js` file which contains the complete information about the user. The file looks something like below:
+## ✨ Features Overview
 
-```javascript
-// Home Page
-const greeting = {
-    ...
+| Category | Feature | Description |
+|----------|---------|-------------|
+| 🎨 | **Dual Theme** | Light / Dark mode with CSS variables, persists via `localStorage` |
+| 🔒 | **Cyber Mode** | Full cybersecurity-themed portfolio at `/cyber` with 7 sub-pages |
+| 🤖 | **PreetBot Chatbot** | Rule-based AI chatbot with Groq LLM fallback (`llama3-8b-8192`) |
+| 🔍 | **Site-Wide Search** | `Cmd/Ctrl+K` instant search across projects, skills, certs, experience |
+| 🌍 | **i18n (3 Languages)** | English, Hindi (हिंदी), Gujarati (ગુજરાતી) with auto-detection |
+| 📄 | **Interactive Resume** | Web-based resume auto-generated from PDF data, Print/Save PDF |
+| 🔥 | **Project Reactions** | 🔥⭐💡🚀 emoji reactions on every project card (`localStorage`) |
+| 📊 | **GitHub Activity** | Live contribution calendar (custom SVG) + repo/follower stats |
+| ✉️ | **EmailJS Contact** | Working contact form with multi-state feedback (success/error/loading) |
+| 🔎 | **SEO Optimized** | Dynamic `<title>` + `<meta>` tags per page via `react-helmet` |
+| ♿ | **Accessible** | Skip-to-content, `focus-visible`, `aria-labels`, keyboard navigation |
+| ⚡ | **Code Splitting** | `React.lazy` + `Suspense` — 85% reduction in initial bundle size |
+| 🎬 | **Animated Splash** | SVG hexagon stroke-draw animation with "PM" monogram (2.5s) |
+| 🕹 | **Konami Code** | `↑↑↓↓←→←→BA` triggers DEFCON 1 full-screen alert 🚨 |
+| 🖱 | **Custom Cursor** | Animated dot cursor with hover scaling (hidden on mobile) |
+| ⬆️ | **Scroll to Top** | Floating button appears after scrolling 300px |
+
+---
+
+## 🌐 Normal Mode
+
+The professional portfolio with all standard sections:
+
+### Pages
+
+| Page | Path | Key Features |
+|------|------|-------------|
+| **Splash** | `/` | SVG hexagon stroke-draw animation → auto-redirects to `/home` |
+| **Home** | `/home` | Hero with typing animation, skills overview, GitHub stats, achievements |
+| **Education** | `/education` | Animated timeline with school/university cards + certifications grid |
+| **Experience** | `/experience` | Accordion-style work experience with expand/collapse |
+| **Projects** | `/projects` | Filterable grid with category tabs, emoji reactions, Featured badge |
+| **Project Detail** | `/projects/:id` | Full project page with tech stack, links, description |
+| **Contact** | `/contact` | EmailJS form + testimonials carousel + blog links |
+| **Resume** | `/resume` | Web-rendered resume from PDF data with Print/Save |
+
+### Key Components
+
+| Component | Purpose |
+|-----------|---------|
+| `Header` | Glassmorphism navbar with logo, nav links, theme toggle, lang switcher |
+| `Footer` | 3-column layout — links, social icons, availability badge |
+| `PreetBot` | Floating chat bubble → opens chat drawer with rule-based + Groq AI |
+| `SearchBar` | `Cmd+K` overlay that indexes all portfolio data |
+| `ProjectReactions` | 4-emoji reaction bar under each project card |
+| `GithubCalendar` | Custom SVG contribution heatmap |
+| `StatsCounter` | Animated counting numbers for key metrics |
+| `Timeline` | Vertical timeline for education/experience |
+| `CustomCursor` | Animated dot that follows the mouse |
+| `KonamiEaster` | ↑↑↓↓←→←→BA → DEFCON 1 alert overlay |
+
+---
+
+## 🔒 Cyber Mode
+
+A fully separate cybersecurity-themed portfolio accessible at `/cyber`. Features deep navy background (`#050508`), terminal green (`#00FF9C`), and red accents (`#FF2D55`).
+
+### Pages
+
+| Page | Path | Description |
+|------|------|-------------|
+| **Dashboard** | `/cyber` | Terminal with typewriter effect, visitor IP scan, animated stats |
+| **About** | `/cyber/about` | Operative dossier with missions, clearance level, PDF export |
+| **Skills** | `/cyber/skills` | Radar chart visualization of cybersecurity competencies |
+| **Projects** | `/cyber/projects` | Security-focused project showcase with threat classifications |
+| **Lab** | `/cyber/lab` | Interactive Kill Chain (7 phases) + CTF Writeups + Threat Matrix game |
+| **Terminal** | `/cyber/terminal` | **25+ command** interactive hacking simulator |
+
+### 🕹 Threat Matrix Game (`/cyber/lab`)
+
+A reflex-based security training game:
+
+- **Circular dial** with a rotating cursor and a green **safe zone**
+- Click when the cursor is in the safe zone to **unlock** the layer
+- **5 levels** — safe zone gets smaller, cursor gets faster each level
+- Live stats: Pass Rate, Best Time, Security Depth level
+- States: IDLE → PLAYING → SUCCESS (`ACCESS GRANTED`) / FAIL (`INTRUSION DETECTED`)
+
+### 🔗 Interactive Kill Chain (`/cyber/lab`)
+
+- **7 clickable phases**: Reconnaissance → Weaponization → Delivery → Exploitation → Installation → Command & Control → Actions on Objectives
+- **Offense/Defense toggle** — switch between attack tools and defensive countermeasures
+- Each phase shows relevant tools, techniques, and mitigations
+
+### 🏴 CTF Writeups (`/cyber/lab`)
+
+- **6 documented challenges** from HackTheBox, TryHackMe, PicoCTF
+- **Category filter**: ALL / WEB / FORENSICS / CRYPTO
+- Each card shows: platform, difficulty (color-coded), methodology, tools used
+- **Flag reveal button** — click to show/hide the captured flag
+
+### 💻 Interactive Terminal (`/cyber/terminal`)
+
+Full hacking terminal simulator — see [Cyber Terminal Commands](#-cyber-terminal-commands) section below.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technologies |
+|-------|-------------|
+| **Frontend** | React 16.14, React Router v5.3, Framer Motion |
+| **Styling** | CSS Variables, Glassmorphism, CSS Grid/Flexbox, Keyframe Animations |
+| **AI/Chat** | Groq API (`llama3-8b-8192`), Rule-based NLP fallback |
+| **Forms** | EmailJS (`@emailjs/browser`) |
+| **SEO** | `react-helmet`, Open Graph, Twitter Cards |
+| **i18n** | `i18next`, `react-i18next` (EN/HI/GU) |
+| **Fonts** | Space Mono (monospace), DM Sans (body), Agustina (logo) |
+| **Icons** | Font Awesome 6, Iconify |
+| **Canvas** | HTML5 Canvas API (Threat Matrix game) |
+| **Deploy** | Netlify (CI/CD from GitHub) |
+
+---
+
+## 📁 Project Structure
+
+```
+PreetVerseX/
+│
+├── public/
+│   ├── index.html                     # HTML template with meta tags + OG
+│   ├── manifest.json                  # PWA manifest
+│   ├── robots.txt                     # SEO crawler rules
+│   ├── _redirects                     # Netlify SPA routing (/* → /index.html)
+│   ├── 404.html                       # Netlify 404 fallback
+│   ├── Preet_Makadiya_Resume.pdf      # Downloadable resume
+│   ├── Preet_Makadiya_Cyber.pdf       # Cyber dossier PDF
+│   ├── icons/                         # Favicons (16/32/192/512) + OG image
+│   └── skills/                        # Skill icon SVGs
+│
+├── src/
+│   ├── index.js                       # Entry point — i18n + ThemeProvider
+│   ├── index.css                      # Global CSS reset + variables
+│   ├── App.jsx                        # Root — skip-link, chatbot, cursor
+│   ├── App.css                        # App-level styles
+│   ├── portfolio.js                   # 📦 All portfolio data (single source)
+│   ├── theme.js                       # Legacy theme object
+│   ├── serviceWorker.js               # PWA service worker
+│   │
+│   ├── assets/
+│   │   ├── fonts/                     # Agustina, DM Sans, Space Mono
+│   │   ├── images/                    # Photos, illustrations, SVGs
+│   │   └── imageMap.js                # Image import mapper
+│   │
+│   ├── context/
+│   │   └── ThemeContext.jsx            # 🎨 Light/Dark/Cyber theme provider
+│   │
+│   ├── i18n/
+│   │   ├── index.js                   # i18next configuration
+│   │   └── locales/
+│   │       ├── en.json                # English translations
+│   │       ├── hi.json                # Hindi (हिंदी) translations
+│   │       └── gu.json                # Gujarati (ગુજરાતી) translations
+│   │
+│   ├── components/
+│   │   ├── header/                    # 🧭 Glassmorphism navbar + nav links
+│   │   │   ├── Header.jsx
+│   │   │   └── Header.css
+│   │   ├── footer/                    # 📌 3-column footer + theme toggle
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Footer.css
+│   │   │   └── ToggleSwitch.jsx
+│   │   ├── chatbot/                   # 🤖 PreetBot AI chatbot
+│   │   │   ├── Chatbot.jsx            #    Chat UI with bubble + drawer
+│   │   │   ├── Chatbot.css
+│   │   │   ├── chatbotData.js         #    Rule-based response patterns
+│   │   │   └── groqService.js         #    Groq LLM API integration
+│   │   ├── search/                    # 🔍 Cmd+K search overlay
+│   │   │   ├── SearchBar.jsx
+│   │   │   └── SearchBar.css
+│   │   ├── cursor/                    # 🖱 Custom animated cursor
+│   │   │   ├── CustomCursor.jsx
+│   │   │   └── CustomCursor.css
+│   │   ├── konamiEaster/              # 🎮 ↑↑↓↓←→←→BA easter egg
+│   │   │   ├── KonamiEaster.jsx
+│   │   │   └── KonamiEaster.css
+│   │   ├── reactions/                 # 🔥 Project emoji reactions
+│   │   │   ├── ProjectReactions.jsx
+│   │   │   └── ProjectReactions.css
+│   │   ├── langSwitcher/              # 🌍 EN/HI/GU language toggle
+│   │   │   ├── LangSwitcher.jsx
+│   │   │   └── LangSwitcher.css
+│   │   ├── seoHeader/                 # 🔎 Dynamic meta tags
+│   │   │   └── SeoHeader.jsx
+│   │   ├── githubCalendar/            # 📊 Custom contribution heatmap
+│   │   │   ├── GithubCalendar.jsx
+│   │   │   └── GithubCalendar.css
+│   │   ├── statsCounter/              # 🔢 Animated counting stats
+│   │   │   ├── StatsCounter.jsx
+│   │   │   └── StatsCounter.css
+│   │   ├── timeline/                  # 📅 Vertical timeline
+│   │   │   ├── Timeline.jsx
+│   │   │   └── Timeline.css
+│   │   ├── topButton/                 # ⬆️ Scroll-to-top button
+│   │   │   ├── TopButton.jsx
+│   │   │   └── TopButton.css
+│   │   ├── testimonials/              # 💬 Testimonials carousel
+│   │   │   ├── Testimonials.jsx
+│   │   │   └── Testimonials.css
+│   │   ├── Loader/                    # ⏳ Loading spinner
+│   │   │   ├── LoaderLogo.jsx
+│   │   │   └── LoaderLogo.css
+│   │   ├── achievementCard/           # 🏆 Achievement display card
+│   │   ├── blogCard/                  # 📝 Blog post card
+│   │   ├── button/                    # 🔘 Reusable styled button
+│   │   ├── certificationCard/         # 📜 Certification display
+│   │   ├── degreeCard/                # 🎓 Education degree card
+│   │   ├── experienceCard/            # 💼 Experience entry card
+│   │   ├── projectLanguages/          # 🏷 Language color bars
+│   │   ├── skillBars/                 # 📊 Animated skill progress bars
+│   │   ├── socialMedia/               # 🔗 Social media icon links
+│   │   ├── softwareSkills/            # ⚙️ Tech stack icon grid
+│   │   ├── competitiveSites/          # 🏅 Competitive programming links
+│   │   ├── publicationsCard/          # 📄 Publication entry
+│   │   ├── talkCard/                  # 🎤 Talk/presentation card
+│   │   ├── githubRepoCard/            # 📦 GitHub repository card
+│   │   ├── issueCard/                 # 🐛 GitHub issue card
+│   │   ├── issueChart/                # 📈 Issue statistics chart
+│   │   ├── pullRequestCard/           # 🔀 Pull request card
+│   │   ├── pullRequestChart/          # 📉 PR statistics chart
+│   │   ├── organizationList/          # 🏢 GitHub organizations
+│   │   └── visitorCounter/            # 👁 Page visit counter
+│   │
+│   ├── containers/
+│   │   ├── Main.jsx                   # 🚦 React Router with lazy loading
+│   │   ├── greeting/                  # 👋 Hero section + typing animation
+│   │   ├── skills/                    # 🛠 Skills section with Iconify
+│   │   ├── achievement/               # 🏆 Achievements with stats
+│   │   ├── education/                 # 🎓 Education section
+│   │   ├── experienceAccordion/       # 💼 Expandable experience
+│   │   ├── certifications/            # 📜 Certifications grid
+│   │   ├── projects/                  # 📁 Project container
+│   │   ├── contact/                   # ✉️ Contact form section
+│   │   ├── blogs/                     # 📝 Blog posts section
+│   │   └── StartupProjects/           # 🚀 Featured startup projects
+│   │
+│   ├── pages/
+│   │   ├── splash/                    # 🎬 Animated splash screen
+│   │   │   ├── Splash.jsx             #    SVG hexagon animation + PM
+│   │   │   └── Splash.css
+│   │   ├── home/                      # 🏠 Landing page
+│   │   │   └── HomeComponent.jsx
+│   │   ├── education/                 # 🎓 Education page
+│   │   │   ├── EducationComponent.jsx
+│   │   │   ├── EducationComponent.css
+│   │   │   └── EducationImg.jsx
+│   │   ├── experience/                # 💼 Experience page
+│   │   │   ├── Experience.jsx
+│   │   │   ├── Experience.css
+│   │   │   └── ExperienceImg.jsx
+│   │   ├── projects/                  # 📁 Projects page
+│   │   │   ├── Projects.jsx           #    Filterable grid + Featured badge
+│   │   │   ├── Projects.css
+│   │   │   ├── ProjectDetail.jsx      #    Individual project view
+│   │   │   ├── ProjectDetail.css
+│   │   │   └── ProjectsImg.jsx
+│   │   ├── contact/                   # ✉️ Contact page
+│   │   │   ├── ContactComponent.jsx
+│   │   │   ├── ContactComponent.css
+│   │   │   ├── AddressImg.jsx
+│   │   │   └── BlogsImg.jsx
+│   │   ├── resume/                    # 📄 Resume page
+│   │   │   ├── Resume.jsx
+│   │   │   └── Resume.css
+│   │   ├── cyber/                     # 🔒 CYBER MODE (7 pages)
+│   │   │   ├── CyberLayout.jsx        #    Layout wrapper + footer + title
+│   │   │   ├── CyberNav.jsx           #    Terminal-style navigation bar
+│   │   │   ├── Cyber.css              #    Shared cyber theme variables
+│   │   │   ├── CyberHome.jsx/.css     #    Dashboard + IP scan terminal
+│   │   │   ├── CyberAbout.jsx/.css    #    Operative dossier + export
+│   │   │   ├── CyberSkills.jsx/.css   #    Radar chart skills
+│   │   │   ├── CyberProjects.jsx/.css #    Security project cards
+│   │   │   ├── CyberLab.jsx/.css      #    Kill Chain + CTF + Threat Matrix
+│   │   │   └── CyberTerminal.jsx/.css #    25+ cmd hacking simulator
+│   │   └── errors/
+│   │       └── error404/              # 🚫 404 page
+│   │           ├── Error.jsx
+│   │           └── Error.css
+│   │
+│   └── theme/
+│       └── themeConfig.js             # Theme configuration
+│
+├── CODE_OF_CONDUCT.md
+├── DEPLOY.md                          # Deployment guide
+├── FEATURES.md                        # Detailed feature documentation
+├── PROJECT_STRUCTURE.md               # File structure documentation
+├── README.md                          # ← You are here
+├── netlify.toml                       # Netlify build configuration
+├── package.json
+└── .gitignore
+```
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Node.js** 14+ and **npm** 6+
+- Git
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/makadiyapreet/PreetVerseX.git
+cd PreetVerseX
+
+# 2. Install dependencies
+npm install --legacy-peer-deps
+
+# 3. Start development server
+npm start
+```
+
+The app opens at **http://localhost:3000**.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Output goes to `build/` — ready for deployment.
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+# ─── EmailJS (Contact Form) ───
+REACT_APP_EMAILJS_SERVICE_ID=your_service_id
+REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
+REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
+
+# ─── Groq AI (Chatbot — Optional) ───
+REACT_APP_GROQ_API_KEY=your_groq_api_key
+```
+
+| Variable | Required? | What Happens Without It |
+|----------|-----------|------------------------|
+| `REACT_APP_EMAILJS_SERVICE_ID` | For contact form | Contact form shows error |
+| `REACT_APP_EMAILJS_TEMPLATE_ID` | For contact form | Contact form shows error |
+| `REACT_APP_EMAILJS_PUBLIC_KEY` | For contact form | Contact form shows error |
+| `REACT_APP_GROQ_API_KEY` | Optional | Chatbot uses rule-based only |
+
+> ⚠️ **Never commit `.env` to git.** It's already in `.gitignore`.
+
+---
+
+## 📄 Routes
+
+### 🌐 Normal Mode Routes
+
+| Route | Component | Description |
+|-------|-----------|-------------|
+| `/` | `Splash` | Animated splash → redirects to `/home` |
+| `/home` | `HomeComponent` | Hero, skills, stats, achievements |
+| `/education` | `EducationComponent` | Education timeline + certifications |
+| `/experience` | `Experience` | Work experience accordion |
+| `/projects` | `Projects` | Filterable project grid |
+| `/projects/:id` | `ProjectDetail` | Individual project page |
+| `/contact` | `ContactComponent` | Contact form + testimonials + blogs |
+| `/resume` | `Resume` | Web-based resume viewer |
+
+### 🔒 Cyber Mode Routes
+
+| Route | Component | Description |
+|-------|-----------|-------------|
+| `/cyber` | `CyberHome` | Dashboard with terminal + IP scan |
+| `/cyber/about` | `CyberAbout` | Operative dossier |
+| `/cyber/skills` | `CyberSkills` | Radar chart skills |
+| `/cyber/projects` | `CyberProjects` | Security project showcase |
+| `/cyber/lab` | `CyberLab` | Kill Chain + CTF Writeups + Threat Matrix |
+| `/cyber/terminal` | `CyberTerminal` | Interactive hacking simulator |
+
+### System Routes
+
+| Route | Component | Description |
+|-------|-----------|-------------|
+| `*` | `Error404` | 404 page with cyber humor |
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+K` / `⌘+K` | Open site-wide search overlay |
+| `Escape` | Close search / chatbot / modals |
+| `↑↑↓↓←→←→BA` | 🚨 DEFCON 1 easter egg alert |
+| `Tab` | Navigate interactive elements |
+| `Shift+Tab` | Navigate backwards |
+| `Enter` | Activate focused element |
+| `↑` / `↓` (in terminal) | Browse command history |
+
+---
+
+## 💻 Cyber Terminal Commands
+
+The interactive terminal at `/cyber/terminal` supports **25+ commands** with animated output:
+
+### 🔍 Reconnaissance
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| `scan <ip>` | Nmap network scan (12 ports, OS detection) | `scan 10.10.10.5` |
+| `ping <host>` | ICMP ping with 4 packets + statistics | `ping google.com` |
+| `nslookup <domain>` | DNS lookup (A, AAAA, CNAME records) | `nslookup example.com` |
+| `whois <domain>` | Domain registration info (registrar, dates, NS) | `whois example.com` |
+| `trace` | Traceroute across 8 hops (India → US) | `trace` |
+
+### 💥 Exploitation
+
+| Command | Description | Output |
+|---------|-------------|--------|
+| `crack` | Hash cracking simulation (MD5 + rockyou.txt) | Progress bar → cracked password |
+| `exploit <cve>` | Metasploit exploit simulation | msfconsole → meterpreter session |
+| `bruteforce` | Hydra SSH brute force simulation | 7 attempts → valid credentials |
+| `sqli` | SQL injection attack simulation | WAF bypass → database dump |
+| `decrypt` | Caesar cipher decryption | Cipher analysis → plaintext |
+
+### 🖥 System
+
+| Command | Description |
+|---------|-------------|
+| `whoami` | Display operative identity + clearance |
+| `ls` | List all files (10 files with permissions) |
+| `cat <file>` | Read file contents (`readme.txt`, `skills.dat`, `projects.log`, `certs.enc`, `contact.key`, `secret.enc`, `.bash_history`, `network.conf`, `exploit.db`) |
+| `pwd` | Print working directory |
+| `date` | Show current date/time |
+| `ifconfig` | Network interface info (eth0 + tun0 VPN) |
+| `status` | System dashboard (firewall, encryption, IDS, VPN, CPU, memory) |
+| `neofetch` | System info banner (Kali Linux style) |
+| `history` | Show command history |
+| `uname` | Show kernel version |
+| `uptime` | Show system uptime + load |
+
+### 🎮 Fun & Easter Eggs
+
+| Command | What Happens |
+|---------|-------------|
+| `matrix` | "Wake up, Neo..." + Matrix rain characters |
+| `fortune` | Random cybersecurity quote |
+| `ssh <host>` | Simulated SSH connection + Ubuntu welcome |
+| `sudo` | "visitor is not in the sudoers file" |
+| `rm` | "Permission denied. Nice try though! 😏" |
+| `exit` | "You can't escape the matrix." |
+| `cd <dir>` | "You're in a browser, remember?" |
+| `echo <text>` | Echoes your text back |
+| `man <cmd>` | "No manual entry. Type 'help' instead." |
+
+### Terminal Features
+
+- **Arrow key history** — `↑`/`↓` to navigate previous commands
+- **Quick command buttons** — Categorized into RECON / EXPLOIT / SYSTEM
+- **Live stats** — Commands run, files discovered, access level
+- **ASCII banner** — PM TERM logo on startup
+- **Command processing indicator** — Input disabled during animations
+
+---
+
+## 🧩 Components Guide
+
+### Data Flow
+
+```
+portfolio.js (Single Source of Truth)
+    ↓
+ThemeContext.jsx (Theme Provider: Light/Dark/Cyber)
+    ↓
+Main.jsx (React Router — lazy loading all pages)
+    ↓
+┌─────────────────┐     ┌─────────────────┐
+│  Normal Mode    │     │  Cyber Mode     │
+│  Header.jsx     │     │  CyberLayout    │
+│  Footer.jsx     │     │  CyberNav       │
+│  Pages...       │     │  CyberPages...  │
+└─────────────────┘     └─────────────────┘
+    ↓
+App.jsx (ChatBot + CustomCursor + KonamiEaster)
+```
+
+### Theme System
+
+CSS variables power the entire theme:
+
+```css
+:root {
+  --bg: #FFFFFF;           /* Background */
+  --text: #1A1A2E;         /* Primary text */
+  --text-sub: #6B7A99;     /* Secondary text */
+  --accent: #4A90D9;       /* Accent color */
+  --card-bg: #FFFFFF;      /* Card background */
+  --card-border: #E8ECF2;  /* Card border */
 }
 
-// Social Media
-const socialMediaLinks = {
-    ...
+[data-theme="dark"] {
+  --bg: #0F1117;
+  --text: #E0E8FF;
+  --accent: #6BB8F5;
 }
 
-...
+[data-theme="cyber"] {
+  --bg: #050508;
+  --text: #E0E8FF;
+  --terminal: #00FF9C;     /* Matrix green */
+}
 ```
 
-You can change the personal information, experience, education, social media, certifications, blog information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
+---
 
-### How to change the icons on homepage under what i do section?
+## 🌐 Deployment (Netlify)
 
-1. This section pulls data from `skills` in portfolio.js file.
-2. Visit this website: https://icon-sets.iconify.design/
-3. Search for the skill you are looking to add.
-4. Select the icon of your choice.
-5. Copy the text beside **Selected Icon** and replace it with `fontAwesomeClassName` of that particular softwareSkill.
+### Option 1: GitHub Auto-Deploy (Recommended)
 
-#### How to use custom images instead of Iconify Icons?
+1. Push code to GitHub
+2. Go to [app.netlify.com](https://app.netlify.com) → **Add new site** → **Import existing project**
+3. Connect your GitHub repo
+4. Build settings (auto-detected from `netlify.toml`):
+   - **Build command:** `npm run build`
+   - **Publish directory:** `build`
+5. Add environment variables in **Site Settings → Environment Variables**
+6. Deploy! 🎉
 
-1. Add a valid image file into the `public/skills` folder
-2. Insert the image name into the `imageSrc` attribute of the particular softwareSkill
-3. Remove the `fontAwesomeClassName` property or leave it empty because it takes precedence over `imageSrc`
-4. Add custom styling to the `img` using the `style` Property
+### Option 2: Netlify CLI
 
-### How to Change the Icons on Education page under Basic Qualification and Certifications?
-
-1. The icons for this section are pulled from the `competitiveSites` array in the `portfolio.js` file.
-2. Visit the [Simple Icons website](https://simpleicons.org/).
-3. Search for the competitive site you want to add an icon for.
-4. Select the icon you want to use.
-5. Copy the text beside Selected Icon and replace it with iconifyClassname of that particular competitive site.
-
-### How to Use Custom Images Instead of Simple Icons for Competitive Sites
-
-1. Place the custom image file in the `public/skills` folder.
-2. Update the `imageSrc` attribute of the corresponding competitive site with the name of your custom image (e.g., `imageSrc: "customImage.png"`).
-3. Remove the `iconifyClassname` property or leave it empty, as the `imageSrc` property takes precedence over `iconifyClassname`.
-4. Optionally, add custom styling to the `<img>` tag using the `style` property to adjust size, positioning, etc.
-
-### Github Information
-
-You will find `git_data_fetcher.mjs` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organizations, Pinned projects etc.) from your github.
-
-In the project you will see a `env.example` file, create a new file named `.env` and copy contents of `env.example` into it. In that file, you will see the following environment variables
-
-```javascript
-GITHUB_TOKEN = your_token;
-GITHUB_USERNAME = your_username;
+```bash
+npm install -g netlify-cli
+netlify login
+npm run build
+netlify deploy --prod --dir=build
 ```
 
-You can get a github token as described [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). Give all permissions while generating token. Add your github username and the token generated in `GITHUB_USERNAME` and `GITHUB_TOKEN` variables in the .env file.
+### `netlify.toml`
 
-Now, you need to run following command. (Make sure you executed `npm install` before this)
+```toml
+[build]
+  command = "npm run build"
+  publish = "build"
 
-**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
-
-```node
-node git_data_fetcher.mjs
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 ```
 
-This will fetch all the data from your github and it will automatically replace my data with yours.
-Whenever you want to update the github related information on the website you need to run this command.
+---
 
-### Splash Logo
+## 🔑 API Keys Setup
 
-Note here that if you click [my portfolio](https://makadiyapreet.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
-Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
+### EmailJS (Contact Form)
 
-- If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo
-- If you don't want Splash screen or you don't know how to design logo, then this option is for you
+1. Sign up at [emailjs.com](https://www.emailjs.com/)
+2. **Add Email Service** → Gmail/Outlook → Copy **Service ID**
+3. **Create Template** with variables: `{{from_name}}`, `{{from_email}}`, `{{subject}}`, `{{message}}` → Copy **Template ID**
+4. **Account → General → Public Key** → Copy **Public Key**
 
-  - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
-    ```javascript
-    // Website related settings
-    const settings = {
-      isSplash: true,
-    };
-    ```
-  - Change `isSplash` from `true` to `false`
-  - Now, if you see your website using `npm start`, it will directly open `home` rather than animating logo `splash` screen
-  - If you design your logo in future, then edit the files in `./src/components/Loader` and then revert `isSplash` to `true` in `src/portfolio.js`.
+### Groq AI (Chatbot — Optional)
 
-## Other
+1. Sign up at [console.groq.com](https://console.groq.com)
+2. **API Keys → Create API Key** → Copy key
+3. Free tier: 14,400 requests/day
 
-- You need to change the website title and other descriptions in `public/index.html`
-- You can define your own favicon in `public/icons` directory. If you don't have a favicon, you can generate favicons from [Favicon Generator](https://www.favicon-generator.org/) and [Favicon IO](https://favicon.io/)
-- You can also edit your website preview (known as description image). Run your site locally, take a screenshot and replace with `public/icons/desc.png`. Note that your screenshot should be 1280x640 for better preview.
+---
 
-# Choose Theme 🌈
+## 🌍 Browser Support
 
-- You can take a look at `src/theme.js` file where all available themes are mentioned with their respective color codes
-- At the bottom of this file you will see the below code:
-  - `export const chosenTheme = blueTheme;`
-  - You need to change the name from `blueTheme` to whatever theme you want to set your website to
-  - You can define new theme similarly as other themes and you can assign name of that new defined theme to `chosenTheme`
-- That's it. You just need to change the theme name and the code will take care of everything else
-- Run `npm start` to check if everything is ok.
+| Browser | Supported | Notes |
+|---------|-----------|-------|
+| Chrome 90+ | ✅ | Full support including custom cursor |
+| Firefox 88+ | ✅ | Full support |
+| Safari 14+ | ✅ | Needs `-webkit-backdrop-filter` for glass |
+| Edge 90+ | ✅ | Chromium-based |
+| Mobile Chrome | ✅ | Custom cursor hidden |
+| Mobile Safari | ✅ | Tested on iOS 14+ |
+| IE 11 | ❌ | No CSS variables, no ES6 |
 
-# Deployment 📦
+---
 
-- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
-- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
-- To deploy your website, you have two options. First you need to create a github repository with the name `<your-github-username>.github.io`. Please don't give it any other name.
-- Now, you need to generate a production build and deploy the website.
+## 🔄 Changelog
 
-**Option 1:**
+### v3.0 — Cyber Expansion (May 2026)
 
-- Run `npm run build` to generate the production build folder.
-- Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository on github. That's it. It's Done.
-- You may need to `git init` and force push at every new build.
+**New Features:**
+- ✨ **Animated Splash** — SVG hexagon stroke-draw with PM monogram
+- ✨ **Cyber Lab** — Interactive Kill Chain (7 phases, offense/defense toggle)
+- ✨ **CTF Writeups** — 6 challenges with category filter + flag reveal
+- ✨ **Threat Matrix** — Reflex game with 5 levels of increasing difficulty
+- ✨ **Hacking Terminal** — 25+ commands with animated output
+- ✨ **Konami Code** — ↑↑↓↓←→←→BA triggers DEFCON 1 alert
+- ✨ **Arrow Key History** — Navigate terminal command history
 
-**Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
+**Improvements:**
+- 🔧 Browser tab title changes in Cyber Mode (`⬡ CYBER MODE | Preet Makadiya`)
+- 🔧 Project cards — fixed Featured badge clipping, increased spacing
+- 🔧 Resume page rebuilt with real PDF data
+- 🔧 Removed CyberContact (replaced with Lab + Terminal)
+- 🔧 Multiple ESLint fixes
 
-- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
-- The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
+### v2.0 — The Full Upgrade (May 2025)
 
-Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
-If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
+**Phase 1 — Foundation:** CSS variables, ThemeContext, glassmorphism header
+**Phase 2 — Visual:** Custom cursor, hero typing animation, scroll-to-top
+**Phase 3 — Content:** Education timeline, skills with Iconify, achievements
+**Phase 4 — Portfolio:** Experience accordion, project grid with filtering
+**Phase 5 — Cyber Mode:** Full `/cyber` route with 5 pages
+**Phase 6 — Contact:** EmailJS form, GitHub calendar, testimonials
+**Phase 7 — AI:** PreetBot chatbot with Groq LLM fallback
+**Phase 8 — i18n:** 3 languages with auto-detection
+**Phase 9 — Search:** `Cmd+K` search, project reactions, web resume
+**Phase 10 — Polish:** Footer, splash screen, 404 page, SEO
 
-<p align="center"> 
-    <a href="https://makadiyapreet.github.io/PreetVerseX/" target="_blank">
-    <img src="src/assets/images/masterportfolio-banner-light.png"></img>
-  </a>
+---
+
+## 🎨 Customization
+
+| What | Where |
+|------|-------|
+| All portfolio data | `src/portfolio.js` |
+| Translations | `src/i18n/locales/` (en.json, hi.json, gu.json) |
+| Theme colors | `src/index.css` (CSS variables) |
+| Cyber theme | `src/pages/cyber/Cyber.css` |
+| SEO meta tags | `src/components/seoHeader/SeoHeader.jsx` |
+| Chatbot responses | `src/components/chatbot/chatbotData.js` |
+
+---
+
+## 📊 Build Stats
+
+```
+✅ Compiled successfully (0 warnings)
+
+Code-split into 40+ chunks via React.lazy
+Main chunk: ~14 KB (gzipped)
+Total: ~220 KB initial load (gzipped)
+Lighthouse: 92 Performance | 100 Accessibility | 95 SEO
+```
+
+---
+
+## 🙏 Acknowledgments
+
+- [Ashutosh Hathidara](https://github.com/ashutosh1919/masterPortfolio) — Original masterPortfolio template
+- [Google Fonts](https://fonts.google.com/) — Space Mono, DM Sans
+- [Font Awesome](https://fontawesome.com/) & [Iconify](https://iconify.design/) — Icon libraries
+- [Framer Motion](https://www.framer.com/motion/) — Animation library
+- [EmailJS](https://www.emailjs.com/) — Serverless email service
+- [Groq](https://groq.com/) — Ultra-fast LLM inference
+- [Netlify](https://www.netlify.com/) — Hosting & CI/CD
+- [i18next](https://www.i18next.com/) — Internationalization framework
+- [react-helmet](https://github.com/nfl/react-helmet) — SEO meta management
+
+---
+
+## 📝 License
+
+This project is **private and proprietary** to Preet Makadiya.
+All rights reserved. Not for redistribution or commercial use.
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
 </p>
 
-# Technologies used 🛠️
+<p align="center">
+  Built with ❤️ by <strong>Preet Makadiya</strong><br/>
+  <sub>B.Tech CSE @ PDEU | CGPA: 8.63</sub><br/>
+  <sub>Cybersecurity • AI/ML • Full Stack Development</sub>
+</p>
 
-- [React](https://reactjs.org/)
-- [graphql](https://graphql.org/)
-- [apollo-boost](https://www.apollographql.com/docs/react/get-started/)
-- [baseui](https://github.com/uber/baseweb)
-- [react-reveal](https://www.react-reveal.com/)
-- [styled-components](https://styled-components.com/)
-
-# illustrations 🍥
-
-- [UnDraw](https://undraw.co/illustrations)
-
-# License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
-# Contributors ✨
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"> </td>
-    </tr>
-  </tbody>
-</table>
-
-# Reference ※
-
-
+<p align="center">
+  <a href="mailto:makadiyapreeta1@gmail.com"><img src="https://img.shields.io/badge/Email-makadiyapreeta1-D14836?style=flat-square&logo=gmail" /></a>
+  <a href="https://github.com/makadiyapreet"><img src="https://img.shields.io/badge/GitHub-makadiyapreet-181717?style=flat-square&logo=github" /></a>
+  <a href="https://linkedin.com/in/preet-makadiya-13102004-p"><img src="https://img.shields.io/badge/LinkedIn-Preet_Makadiya-0A66C2?style=flat-square&logo=linkedin" /></a>
+</p>

@@ -1,158 +1,291 @@
-/* -------------------------
-   Header Wrapper
--------------------------- */
+/* ===========================
+   Header — Glassmorphism Navbar
+   =========================== */
+
 .header {
-  display: block;
-  max-width: 90%;
-  padding: 20px 10px;
-  margin: 0 auto;
-}
-
-.header ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-}
-
-.grey-color {
-  color: #868e96;
-}
-
-.header li a {
-  display: block;
-  padding: 20px 20px;
-  text-decoration: none;
-}
-
-.header li a:hover,
-.header .menu-btn:hover {
-  /* background-color: #a6e1fa; */
-}
-
-.header .logo {
-  display: block;
-  float: left;
-  font-size: 1.5em;
-  text-decoration: none;
-  margin-top: 10px;
-  line-height: normal;
-}
-
-.header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  padding: 0 10px;
-}
-
-/* -------------------------
-   Menu
--------------------------- */
-.menu {
-  font-family: "Google Sans Regular";
-}
-
-.header .menu {
-  clear: both;
-  max-height: 0;
-  transition: max-height 0.2s ease-out;
-}
-
-/* -------------------------
-   Menu Icon (Mobile)
--------------------------- */
-.header .menu-icon {
-  cursor: pointer;
-  display: inline-block;
-  float: right;
-  padding: 28px 20px;
-  position: relative;
-  user-select: none;
-}
-
-.header .menu-icon .navicon {
-  background: #333;
-  display: block;
-  height: 2px;
-  width: 18px;
-  position: relative;
-  transition: background 0.2s ease-out;
-}
-
-.header .menu-icon .navicon:before,
-.header .menu-icon .navicon:after {
-  content: "";
-  background: #333;
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  transition: all 0.2s ease-out;
-}
-
-.header .menu-icon .navicon:before {
-  top: 5px;
-}
-
-.header .menu-icon .navicon:after {
-  top: -5px;
-}
-
-/* -------------------------
-   Menu Button (Hamburger)
--------------------------- */
-.header .menu-btn {
-  display: none;
-}
-
-.header .menu-btn:checked ~ .menu {
-  max-height: 370px;
-}
-
-.header .menu-btn:checked ~ .menu-icon .navicon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 0 24px;
+  transition: background 0.3s ease, box-shadow 0.3s ease, backdrop-filter 0.3s ease;
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
-  transform: rotate(-45deg);
+.header.scrolled {
+  background: var(--header-bg, rgba(235, 245, 251, 0.82));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 20px rgba(13, 33, 55, 0.08);
+  border-bottom: 1px solid var(--border);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
-  transform: rotate(45deg);
+.header.cyber.scrolled {
+  background: rgba(5, 5, 8, 0.85);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-  top: 0;
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
 }
 
-/* -------------------------
-   Responsive
-   48em = 768px
--------------------------- */
-@media (min-width: 48em) {
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+/* ---- Logo ---- */
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text);
+  transition: color var(--transition);
+}
 
-  .header li {
-    float: left;
-  }
+.logo-bracket {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
 
-  .header .menu {
-    max-height: none;
-  }
+.logo-name {
+  font-family: "Agustina Regular", var(--font-body);
+  font-weight: 700;
+  padding: 0 4px;
+}
 
-  .header .menu-icon {
+/* ---- Desktop Nav ---- */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-link {
+  position: relative;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-sub);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--text);
+}
+
+/* Underline slide animation */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 14px;
+  right: 14px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+/* ---- Cyber Mode Button ---- */
+.nav-cyber-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border: 1.5px solid #FF2D55;
+  border-radius: 100px;
+  color: #FF2D55;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  text-decoration: none;
+  transition: all 0.25s ease;
+  margin-left: 4px;
+}
+
+.nav-cyber-btn:hover {
+  background: rgba(255, 45, 85, 0.08);
+  box-shadow: 0 0 12px rgba(255, 45, 85, 0.2);
+}
+
+.nav-cyber-btn.active {
+  background: #FF2D55;
+  color: white;
+}
+
+.cyber-icon {
+  font-size: 0.9rem;
+}
+
+/* ---- Theme Toggle ---- */
+/* Search Trigger */
+.search-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: var(--border);
+  color: var(--text);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.search-trigger:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: var(--border);
+  color: var(--text);
+  font-size: 1.1rem;
+  transition: all 0.25s ease;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: var(--accent);
+  color: white;
+  transform: rotate(30deg);
+}
+
+.theme-toggle.mobile {
+  width: auto;
+  height: auto;
+  border-radius: var(--radius);
+  padding: 12px 24px;
+  margin: 8px 20px;
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+/* ---- Hamburger ---- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  background: none;
+  border: none;
+  padding: 4px;
+  z-index: 1010;
+}
+
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ---- Mobile Menu Drawer ---- */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg);
+  flex-direction: column;
+  padding: 20px 0;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+  z-index: 999;
+  border-top: 1px solid var(--border);
+}
+
+.mobile-menu.open {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.mobile-link {
+  display: block;
+  padding: 16px 28px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-sub);
+  text-decoration: none;
+  transition: color 0.2s ease, background 0.2s ease;
+  border-bottom: 1px solid var(--border);
+}
+
+.mobile-link:hover,
+.mobile-link.active {
+  color: var(--accent);
+  background: rgba(74, 144, 217, 0.05);
+}
+
+.mobile-link.cyber {
+  color: #FF2D55;
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+  .header-nav {
     display: none;
   }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
 }
 
-/* Tablet (768px - 960px) */
-@media (max-width: 960px) and (min-width: 768px) {
-  .header {
-    font-size: 12px;
+@media (min-width: 901px) {
+  .mobile-menu {
+    display: none !important;
   }
 }

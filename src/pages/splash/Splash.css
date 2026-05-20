@@ -1,58 +1,148 @@
-.logo_wrapper {
-  height: 100vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-}
+/* ===========================
+   Splash Screen — Animated Hexagon PM
+   =========================== */
 
-.screen {
-  height: 100%;
+.splash-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.screen {
-  /* background-color: #55198b; */
+  background: #0a1a3a;
   overflow: hidden;
-  border-radius: 100%;
-  animation: grow 5.5s forwards;
+  transition: opacity 0.6s ease;
 }
 
-@keyframes grow {
-  0% {
-    transform: scale(0);
-  }
-  10% {
-    transform: scale(1);
-    border-radius: 0%;
-    height: 100%;
-    width: 100%;
-  }
-  90% {
-    transform: scale(1);
-    border-radius: 0%;
-    height: 100%;
-    width: 100%;
-  }
-  100% {
-    transform: scale(0);
-    transform-origin: 50% 50%;
-    border-radius: 100%;
-  }
+.splash-fade-out {
+  opacity: 0;
+  transform: scale(1.05);
 }
 
-#logo {
+/* Hexagon wrap */
+.splash-hex-wrap {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.splash-hex-svg {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
 }
+
+/* SVG stroke-draw animation */
+.hex-draw {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+}
+
+.hex-outer {
+  animation: hex-draw-in 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.2s forwards;
+}
+
+.hex-inner {
+  animation: hex-draw-in 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.5s forwards;
+}
+
+@keyframes hex-draw-in {
+  0% { stroke-dashoffset: 800; }
+  100% { stroke-dashoffset: 0; }
+}
+
+/* Glow behind hexagon */
+.splash-hex-glow {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(74, 130, 200, 0.15), transparent 70%);
+  animation: hex-glow-pulse 2.5s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes hex-glow-pulse {
+  0%, 100% { transform: scale(0.9); opacity: 0.3; }
+  50% { transform: scale(1.2); opacity: 0.6; }
+}
+
+/* PM text inside hexagon */
+.splash-pm-text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.splash-pm-text.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.splash-p,
+.splash-m {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 4.2rem;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.3);
+  letter-spacing: -0.02em;
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.35);
+  paint-order: stroke fill;
+}
+
+/* Loading section */
+.splash-loading {
+  width: min(300px, 80vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  opacity: 0;
+  animation: splash-load-in 0.5s ease 1.4s forwards;
+}
+
+@keyframes splash-load-in {
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.splash-progress-bar {
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.splash-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0.2), rgba(255,255,255,0.5));
+  border-radius: 4px;
+  transition: width 0.1s linear;
+}
+
+.splash-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.splash-status-text {
+  font-family: 'Space Mono', 'Courier New', monospace;
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.3);
+  letter-spacing: 0.04em;
+}
+
+body { margin: 0; padding: 0; }

@@ -1,27 +1,43 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { BaseProvider, LightTheme } from "baseui";
-import { Provider as StyletronProvider } from "styletron-react";
-import { Client as Styletron } from "styletron-engine-atomic";
-
+import { createRoot } from "react-dom/client";
+import "./i18n/index";
 import "./index.css";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
-// import "./assets/font-awesome/css/all.css";
+import { ThemeProvider } from "./context/ThemeContext";
 
-const engine = new Styletron();
+// Error boundary to catch and display React errors
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+  componentDidCatch(error, info) {
+    console.error("React Error:", error, info);
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div style={{ padding: 40, fontFamily: 'monospace', color: 'red' }}>
+          <h1>Something went wrong!</h1>
+          <pre style={{ whiteSpace: 'pre-wrap' }}>
+            {this.state.error && this.state.error.toString()}
+          </pre>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
-ReactDOM.render(
-  <StyletronProvider value={engine}>
-    <BaseProvider theme={LightTheme}>
+const container = document.getElementById("root");
+const root = createRoot(container);
+root.render(
+  <ErrorBoundary>
+    <ThemeProvider>
       <App />
-    </BaseProvider>
-  </StyletronProvider>,
-  document.getElementById("root")
+    </ThemeProvider>
+  </ErrorBoundary>
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

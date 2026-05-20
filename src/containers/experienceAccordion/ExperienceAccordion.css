@@ -1,13 +1,243 @@
+/* ===========================
+   Experience Accordion
+   =========================== */
+
 .experience-accord {
-  margin: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 24px 40px;
 }
 
+/* ---- Accordion Header ---- */
 .accord-panel {
-  font-family: "Google Sans Regular";
+  margin-bottom: 12px;
 }
 
+.accord-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 16px 22px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  text-align: left;
+  transition: all 0.25s ease;
+}
+
+.accord-header:hover {
+  background: rgba(74, 144, 217, 0.04);
+  border-color: var(--accent);
+}
+
+.accord-header.open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: var(--accent);
+}
+
+.accord-title {
+  flex: 1;
+}
+
+.accord-count {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(74, 144, 217, 0.1);
+  padding: 2px 10px;
+  border-radius: 100px;
+}
+
+.accord-icon {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--text-sub);
+  transition: transform 0.3s ease;
+  line-height: 1;
+}
+
+.accord-icon.open {
+  transform: rotate(45deg);
+}
+
+/* ---- Accordion Content ---- */
+.accord-content {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  background: var(--bg-card);
+}
+
+/* ---- Experience Timeline ---- */
+.exp-timeline {
+  position: relative;
+  padding: 24px 20px;
+}
+
+.exp-timeline-line {
+  position: absolute;
+  left: 50px;
+  top: 24px;
+  bottom: 24px;
+  width: 2px;
+  background: var(--border);
+}
+
+.exp-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.exp-entry:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- Logo Dot ---- */
+.exp-dot {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(13, 33, 55, 0.08);
+}
+
+.exp-logo {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+/* ---- Experience Card ---- */
+.exp-card {
+  flex: 1;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.exp-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(13, 33, 55, 0.08);
+}
+
+.exp-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.exp-role {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 2px;
+}
+
+.exp-org {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 500;
+  margin: 0;
+}
+
+.exp-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.exp-duration {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(74, 144, 217, 0.1);
+  padding: 2px 10px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.exp-location {
+  font-size: 0.72rem;
+  color: var(--text-sub);
+  background: var(--border);
+  padding: 2px 8px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.exp-desc {
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+
+.exp-link {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.exp-link:hover {
+  color: var(--primary);
+}
+
+/* ---- Responsive ---- */
 @media (max-width: 768px) {
-  .experience-accord {
-    margin: 20px;
+  .exp-card-header {
+    flex-direction: column;
+  }
+
+  .exp-meta {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .exp-timeline-line {
+    left: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .exp-dot {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+  }
+
+  .exp-logo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .exp-timeline-line {
+    left: 42px;
   }
 }

@@ -1,6 +1,10 @@
 {
-  "name": "PreetVerseX",
+  "name": "Preet Makadiya Portfolio",
   "short_name": "PreetVerseX",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D2137",
+  "theme_color": "#0D2137",
   "icons": [
     {
       "src": "/icons/web-app-manifest-192x192.png",
@@ -14,8 +18,5 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  ]
 }

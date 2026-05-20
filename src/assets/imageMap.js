@@ -38,28 +38,9 @@ import walmart_logo from "./images/walmart_logo.png";
 
 // Other logos
 import deeplearning_ai_logo from "./images/deeplearning_ai_logo.png";
-import google_logo from "./images/google_logo.png";
-import ibm_logo from "./images/ibm_logo.png";
-import microsoft_logo from "./images/microsoft_logo.png";
-import stanford_logo from "./images/stanford_logo.png";
 import nptel_logo from "./images/nptel_logo.png";
-import gcp_logo from "./images/gcp_logo.png";
 import github_logo from "./images/github_logo.png";
-import dsc_logo from "./images/dsc_logo.png";
-import intel_logo from "./images/intel_logo.jpg";
-import legato_logo from "./images/legato_logo.png";
-import delhivery_logo from "./images/delhivery_logo.png";
 import iu_logo from "./images/iu_logo.png";
-import freecopy_logo from "./images/freecopy_logo.png";
-import muffito_logo from "./images/muffito_logo.png";
-import mozilla_logo from "./images/mozilla_logo.png";
-import codeInLogo from "./images/codeInLogo.png";
-import saayaHealthLogo from "./images/saayaHealthLogo.png";
-import nextuLogo from "./images/nextuLogo.jpg";
-import pwa from "./images/pwa.png";
-import googleAssistant from "./images/googleAssistant.jpg";
-import masterportfolio_banner from "./images/masterportfolio-banner-light.png";
-import portfolio from "./images/portfolio.gif";
 
 // Export all images as a mapping object
 const imageMap = {
@@ -100,28 +81,9 @@ const imageMap = {
 
   // Other logos
   "deeplearning_ai_logo.png": deeplearning_ai_logo,
-  "google_logo.png": google_logo,
-  "ibm_logo.png": ibm_logo,
-  "microsoft_logo.png": microsoft_logo,
-  "stanford_logo.png": stanford_logo,
   "nptel_logo.png": nptel_logo,
-  "gcp_logo.png": gcp_logo,
   "github_logo.png": github_logo,
-  "dsc_logo.png": dsc_logo,
-  "intel_logo.jpg": intel_logo,
-  "legato_logo.png": legato_logo,
-  "delhivery_logo.png": delhivery_logo,
   "iu_logo.png": iu_logo,
-  "freecopy_logo.png": freecopy_logo,
-  "muffito_logo.png": muffito_logo,
-  "mozilla_logo.png": mozilla_logo,
-  "codeInLogo.png": codeInLogo,
-  "saayaHealthLogo.png": saayaHealthLogo,
-  "nextuLogo.jpg": nextuLogo,
-  "pwa.png": pwa,
-  "googleAssistant.jpg": googleAssistant,
-  "masterportfolio-banner-light.png": masterportfolio_banner,
-  "portfolio.gif": portfolio,
 };
 
 // Helper function to get image by filename
